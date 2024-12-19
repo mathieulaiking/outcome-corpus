@@ -1,0 +1,9 @@
+T1	PrimaryOutcome 698 729	time to reach clinical response
+T2	SecondaryOutcome 755 780	duration of hospital stay
+T3	SecondaryOutcome 782 816	length of intensive care unit stay
+T4	TimeFrame 818 824	28-day
+T5	SecondaryOutcome 825 834	mortality
+T6	SecondaryOutcome 836 894	effect of early or late administration of IFN on mortality
+T7	SecondaryOutcome 896 911	adverse effects
+T8	SecondaryOutcome 917 957	complications during the hospitalization
+R1	MeasuredAt Arg1:T5 Arg2:T4	

@@ -1,0 +1,22 @@
+Clinical study
+Patients
+The study was initially designed as a multi-center study across hospitals in Changsha city and in other cities of Hunan Province,
+China. However, per a government order, all patients from hospitals in Changsha city had to be relocated to the First Hospital of Changsha, a designated treatment center for all COVID-19 patients in Changsha city, and hospitals in other cities of Hunan
+Province were not able to participate due to various reasons. The study was changed to a single-center study. This study was approved by the ethics committee of the First Hospital of Changsha (file number KX-2020002) and was conducted at the hospital. The study was also registered in the Chinese Clinical Trial Registry (http://www.chictr.org.cn/), number ChiCTR2000029496.
+Hospitalized COVID-19 patients with confirmed SARS-CoV-2 detection, clinically classified as moderate or severe, at an age over 18 years, and without comorbidity of severe heart, lung, or brain diseases, were eligible for enrolling into this study. Moderate patients were defined as “patients with fever, symptoms of the respiratory system and pneumonia changes in CT images, and severe patients were defined as “patients with any of the following: (1) Respiratory distress, respiratory frequency  30/ min; (2) Under rest status, arterial oxygen saturation (SaO2 )  93%; (3) Arterial partial pressure of oxygen (PaO2)/fraction of inspired oxygen (FiO2)  300 mmHg. In this study, we aimed to observe moderate and severe COVID-19 patients as these patients would likely benefit more from antiviral treatments.
+Trial design and treatments
+This was a randomized, open-label, parallel-group study.
+Patients eligible for the study were assigned, in a 1:1:1 ratio, to
+Novaferon, Novaferon plus Lopinavir/Ritonavir, or Lopinavir/
+Ritonavir group. An SAS generated simple randomization schedule was prepared by a statistician not involved in the trial. Using the order in which they enrolled in the study, patients were assigned to a treatment group that was implemented by a research assistant.
+Informed consent was obtained from all enrolled patients.
+Antiviral effects were assessed on day three, day six, and day nine after starting drug administration.
+The approved dosage of Novaferon for hepatitis B application is the daily injection of 10 mg of protein in 1.0 ml volume per vial.
+Lopinavir/Ritonavir (Kaletra) was manufactured by AbbVie Inc.; each tablet contained 200 mg of Lopinavir and 50 mg of Ritonavir.
+The total daily doses (40 mg) of Novaferon were administered to patients twice per day by oxygen-driven aerosolized inhalation for 15 min of 20 mg of Novaferon (2  1 ml vials) diluted with saline.
+For patients receiving Lopinavir/Ritonavir (Kaletra), two tablets were orally taken twice per day. The aerosolized inhalation was administrated to hospitalized patients in the negative-pressure wards at the designated COVID-19 center to minimize the risk of disease transmission.
+Assessments
+Samples of nasopharyngeal swabs on day three, day six, and day nine during the seven to ten-day course of antiviral treatment were collected from the patients and tested for SARS-CoV-2 nucleic acids by RT-PCR. SARS-CoV-2 clearance in COVID-19 patients was defined as two consecutive negative-detection of SARS-CoV-2 RNA in nasopharyngeal swab samples with an interval of over 24 h.
+Adverse events were monitored throughout the trial, reported and graded based on the WHO Toxicity Grading Scale for Determining the Severity.
+The peak levels of the SARS virus were around ten days after onset, and then the viral level began to decrease without effective antiviral treatment in SARS patients (Peiris et al., 2003).
+Considering the homology of gene sequences of SARS-CoV-2 and SARS was over 90% (Zhu et al., 2020), we assumed that the intervention of antiviral drugs in COVID-19 patients would likely enhance or shorten the time to viral clearance. In this regard, this study's primary endpoint was chosen based on the SARS-CoV-2  clearance rates in COVID-19 patients assessed on day six of antiviral treatment. The secondary endpoint was the median time to SARS-CoV-2 clearance

@@ -1,0 +1,17 @@
+T1	PrimaryOutcome 48 205	proportion of subjects meeting a severe COVID-19 progression composite end point (death, ICU admission, mechanical ventilation, ECMO, and/or vasopressor use)
+T2	TimeFrame 206 215	at day 14
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OtherOutcome 252 369	cumulative incidence of serious adverse events (SAEs), grade 3 or 4 adverse events, and/or discontinuation of therapy
+T4	TimeFrame 370 379	at day 30
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 419 481	changes in an 8-point ordinal COVID-19 clinical severity score
+T6	SecondaryOutcome 508 557	primary composite outcome and mortality at day 30
+T7	SecondaryOutcome 559 588	hospital length of stay (LOS)
+T8	SecondaryOutcome 590 605	fever-free days
+T9	SecondaryOutcome 611 627	oxygen-free days
+T10	OutcomeDefinition 628 780	(defined as 7 [the maximum number of days with vital signs captured] minus the number of days with temperature ≥100.4°F or requiring supplemental oxygen
+R3	DefinedAs Arg1:T9 Arg2:T10	
+T11	OtherOutcome 822 870	SARS-CoV-2 viral clearance on nasopharyngeal PCR
+T12	OtherOutcome 872 983	clinically significant changes from baseline to follow-up (day 6, or day 3 if day 6 was unavailable) creatinine
+T13	OtherOutcome 990 1017	hepatic and hematology labs
+T14	OtherOutcome 1028 1198	changes in inflammatory markers (C-reactive protein, lactic acid dehydrogenase, ferritin, interleukin-6) and coagulation factors (D-dimer) associated with severe COVID-19

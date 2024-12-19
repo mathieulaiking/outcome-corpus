@@ -1,0 +1,13 @@
+ Outcomes
+
+The primary outcome was a composite of mechanical ventilation, hospitalization >14 days or in-hospital death.
+
+Secondary outcomes included: days of mechanical ventilation, days of high-flow nasal cannula (HFNC), days of oxygen requirement, time to respiratory failure development (PaO2/FiO2<200), the severity of multiple organ dysfunction (by SOFA score) at day 3 and 7; days in ICU or intermediate care unit, hospital length of stay, and mortality at 30 days. The kinetics of inflammatory biomarkers, including total lymphocyte count, C-reactive protein (CRP), procalcitonin, LDH, D-dimer, ferritin and IL-6 were determined on days 0, 3 and 7; and SARS-CoV-2 RT-PCR in nasopharyngeal swab on days 3 and 7.
+
+Radiological outcomes included the comparison of infiltrates progression on chest CT scans on enrollment and day 5, based on COVID-19 pneumonia severity scores[20–23]. For the combined analysis with portable chest X-rays, a blinded thoracic radiologist expert categorized images as “progression” vs “stable or improved”.
+
+Also, pre-planned analyses of baseline neutralizing antibodies (NAbs) titers, and anti-SARS-CoV-2 IgG titers were determined in participants from the early plasma group and in the subset of participants from the deferred plasma group who had not yet received plasma on days 0, 3 and 7.
+
+Analysis of the primary outcome and clinical secondary outcomes was performed by intention-to-treat (ITT). Laboratory and radiology secondary outcomes were analyzed by modified-ITT, excluding a patient who withdrew consent before any intervention.
+
+Safety outcomes were evaluated in all participants.

@@ -1,0 +1,12 @@
+T1	UnclearOutcome 49 121	dynamic conversion from positive to negative of SARS-Cov2 RT-PCR results
+T2	TimeFrame 164 187	at 0, 3, 7, and 14 days
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	UnclearOutcome 471 486	clinical status
+T4	OutcomeDefinition 502 565	in categories of asymptomatic, mild, moderate or severe disease
+T5	TimeFrame 577 601	followed up until ending
+R2	DefinedAs Arg1:T3 Arg2:T4	
+R3	MeasuredAt Arg1:T3 Arg2:T5	
+T6	UnclearOutcome 1175 1192	chest-CT analysis
+T7	TimeFrame 1332 1368	at day 0 and after treatment (day 7)
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+T8	UnclearOutcome 2984 3094	levels of Creatinine Phospho Kinase (CPK), Reactive C-Protein (RCP), and Lactate dehydrogenase (LDH) in plasma

@@ -1,0 +1,22 @@
+T1	PrimaryOutcome 53 73	ventilator-free days
+T2	TimeFrame 74 98	during the first 28 days
+T3	OutcomeDefinition 111 159	being alive and free from mechanical ventilation
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 185 204	all-cause mortality
+T5	TimeFrame 205 215	at 28 days
+T6	SecondaryOutcome 217 244	clinical status of patients
+T7	TimeFrame 245 254	at day 15
+T8	OutcomeDefinition 255 331	using a 6-point ordinal scale (ranging from 1, not hospitalized to 6, death)
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+R5	DefinedAs Arg1:T6 Arg2:T8	
+T9	SecondaryOutcome 333 346	ICU-free days
+T10	TimeFrame 347 371	during the first 28 days
+T11	SecondaryOutcome 373 404	mechanical ventilation duration
+T12	TimeFrame 405 415	at 28 days
+R6	MeasuredAt Arg1:T11 Arg2:T12	
+R7	MeasuredAt Arg1:T9 Arg2:T10	
+T13	SecondaryOutcome 421 541	Sequential Organ Failure Assessment (SOFA) scores (range, 0-24, with higher scores indicating greater organ dysfunction)
+T14	TimeFrame 542 575	at 48 hours, 72 hours, and 7 days
+R8	MeasuredAt Arg1:T13 Arg2:T14	

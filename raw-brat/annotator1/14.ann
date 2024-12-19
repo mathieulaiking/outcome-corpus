@@ -1,0 +1,18 @@
+T1	PrimaryOutcome 44 72	time to clinical improvement
+T2	TimeFrame 73 107	within 28 days after randomisation
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 147 1076	two-point reduction in patients' admission status on a six-point ordinal scale, or live discharge from the hospital, whichever came first. The six-point scale was as follows: death=6; hospital admission for extracorporeal membrane oxygenation or mechanical ventilation=5; hospital admission for non-invasive ventilation or high-flow oxygen therapy=4; hospital admission for oxygen therapy (but not requiring high-flow or non-invasive ventilation)=3; hospital admission but not requiring oxygen therapy=2; and discharged or having reached discharge criteria (defined as clinical recovery—ie, normalisation of pyrexia, respiratory rate <24 breaths per minute, saturation of peripheral oxygen >94% on room air, and relief of cough, all maintained for at least 72 h)=1. The six-point scale was modified from the seven-point scale used in our previous COVID-19 lopinavir–ritonavir RCT11 by combining the two outpatient strata into one
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 1107 1170	proportions of patients in each category of the six-point scale
+T5	TimeFrame 1171 1211	at day 7, 14, and 28 after randomisation
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+T6	SecondaryOutcome 1213 1232	all-cause mortality
+T7	TimeFrame 1233 1242	at day 28
+T8	SecondaryOutcome 1244 1288	frequency of invasive mechanical ventilation
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+T9	SecondaryOutcome 1290 1316	duration of oxygen therapy
+T10	SecondaryOutcome 1318 1348	duration of hospital admission
+T11	SecondaryOutcome 1354 1402	proportion of patients with nosocomial infection
+T12	OtherOutcome 1565 1598	treatment-emergent adverse events
+T13	OtherOutcome 1600 1622	serious adverse events
+T14	OtherOutcome 1628 1668	premature discontinuations of study drug

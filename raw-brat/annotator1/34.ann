@@ -1,0 +1,14 @@
+T1	PrimaryOutcome 43 62	all-cause mortality
+T2	TimeFrame 63 142	within 28 days after randomization; further analyses were specified at 6 months
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 172 210	time until discharge from the hospital
+T4	SecondaryOutcome 216 417	among patients not receiving invasive mechanical ventilation at the time of randomization, subsequent receipt of invasive mechanical ventilation (including extracorporeal membrane oxygenation) or death
+T5	OtherOutcome 465 489	cause-specific mortality
+T6	OtherOutcome 491 534	receipt of renal dialysis or hemofiltration
+T7	OtherOutcome 536 585	major cardiac arrhythmia (recorded in a subgroup)
+T8	OtherOutcome 591 626	receipt and duration of ventilation
+T9	OtherOutcome 727 782	successful cessation of invasive mechanical ventilation
+T10	OutcomeDefinition 798 840	cessation within (and survival to) 28 days
+R2	DefinedAs Arg1:T9 Arg2:T10	
+T11	OutcomeDefinition 628 710	Among those receiving invasive mechanical ventilation at the time of randomization
+R3	DefinedAs Arg1:T9 Arg2:T11	

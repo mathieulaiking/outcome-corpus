@@ -1,0 +1,7 @@
+ Outcome measures
+The primary outcome of this study was the rate of hospitalization. Secondary outcomes were clinical improvements (e.g., resolution of fever, cough and dyspnea) and improvement of CT findings at days 14 after initiation of the treatment. Patients were assessed clinically (e.g., temperature, respiratory rate, cough, and dyspnea) and paraclinically (e.g., CBC-diff and C-Reactive Protein) at onset of admission and 5th day of treatment. In addition, the chest CT scans were done at first and 14 days after the onset of treatment. For each patient, the chest CT scan was evaluated for the presence of groundglass opacities and/or consolidation. Each five lobe of the lung was assessed and the overall lung involvement was reached by summing the five lobe scores (range of possible scores, 0 – 20 for each lobe and total lung involvement of possible score of 0-100 percent). The Chest CT was repeated in day 14 and compared with the initial finding. Reduced lung CT involvement; not adjusted" values were computed according to this equation:
+Reduced Lung CT involvement, not adjusted =
+Day 14 total long involvement – Initial total lung involvement
+Reduced lung CT involvement; adjusted values was computed with the following equation that included the initial total lung involvement in the denominator:
+Reduced lung CT involvement; adjusted value = (Initial total long involvement ― Day 14 total long involvement)
+Initial total lung involvement

@@ -1,0 +1,25 @@
+T1	PrimaryOutcome 59 87	time to clinical improvement
+T2	OutcomeDefinition 100 147	the days from randomization until normalization
+T3	OutcomeDefinition 212 338	body temperature, respiratory rate, oxygen saturation, alleviation of cough, and absorption of pulmonary infection by chest CT
+R1	DefinedAs Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 1021 1046	clinical improvement rate
+T5	SecondaryOutcome 1048 1091	median time and proportion of defervescence
+T6	SecondaryOutcome 1093 1172	mean time and proportion of significant inflammatory absorption of lung lesions
+T7	SecondaryOutcome 1176 1231	negative conversion rate of the viral nucleic acid test
+T8	SecondaryOutcome 1233 1242	mortality
+T9	TimeFrame 1243 1252	at day 28
+R3	MeasuredAt Arg1:T8 Arg2:T9	
+T10	SecondaryOutcome 1262 1330	conversion from mild or ordinary to severe or critical severe status
+T11	OutcomeDefinition 1543 1636	days from randomization to a temperature less than 37.0 °C maintained for at least 24 or 72 h
+R4	DefinedAs Arg1:T5 Arg2:T11	
+T12	TimeFrame 1680 1732	repeated after 48 h following a negative test result
+R5	MeasuredAt Arg1:T7 Arg2:T12	
+T14	OtherOutcome 2026 2189	changes in laboratory indicators, including routine blood test, C-reactive protein (CRP), coagulation function, myocardial enzymes, and hepatic and renal functions
+T13	OutcomeDefinition 1448 1492	according to Chinese guidelines for COVID-19
+R6	DefinedAs Arg1:T10 Arg2:T13	
+T15	OutcomeDefinition 1834 1932	patient being discharged from the hospital or the score decreasing by two points from the baseline
+R7	DefinedAs Arg1:T4 Arg2:T15	
+T16	OutcomeDefinition 1738 1828	conversion rate in severe and critical severe subjects was assessed with a six-point scale
+R8	DefinedAs Arg1:T10 Arg2:T16	
+T17	OtherOutcome 2195 2257	recovery rates of the above indicators from abnormal to normal

@@ -1,0 +1,15 @@
+T1	TimeFrame 40 115	at 28 days after randomization, with further analyses specified at 6 months
+T3	PrimaryOutcome 141 160	all-cause mortality
+T4	SecondaryOutcome 186 217	time to discharge from hospital
+T5	SecondaryOutcome 223 383	among patients not on invasive mechanical ventilation at randomization, invasive mechanical ventilation (including extra-corporal membrane oxygenation) or death
+T6	OtherOutcome 423 447	cause-specific mortality
+T7	OtherOutcome 449 486	use of hemodialysis or hemofiltration
+T8	OtherOutcome 488 512	major cardiac arrhythmia
+T9	OtherOutcome 541 576	receipt and duration of ventilation
+R1	MeasuredAt Arg1:T3 Arg2:T1	
+R3	MeasuredAt Arg1:T4 Arg2:T1	
+R5	MeasuredAt Arg1:T5 Arg2:T1	
+R7	MeasuredAt Arg1:T6 Arg2:T1	
+R9	MeasuredAt Arg1:T7 Arg2:T1	
+R11	MeasuredAt Arg1:T8 Arg2:T1	
+R13	MeasuredAt Arg1:T9 Arg2:T1	

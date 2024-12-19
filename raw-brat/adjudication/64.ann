@@ -1,0 +1,31 @@
+T1	PrimaryOutcome 55 70	clinical status
+T2	TimeFrame 71 80	on day 11
+T3	OutcomeDefinition 81 166	on a 7-point ordinal scale ranging from death (category 1) to discharged (category 7)
+R1	DefinedAs Arg1:T1 Arg2:T3	
+R2	MeasuredAt Arg1:T1 Arg2:T2	
+T4	PrimaryOutcome 517 586	distribution of clinical status assessed on the 7-point ordinal scale
+T5	TimeFrame 587 602	on study day 11
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+T6	SecondaryOutcome 877 919	proportion of patients with adverse events
+T7	TimeFrame 920 956	throughout the duration of the study
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+T8	OtherOutcome 1003 1019	time to recovery
+T9	OutcomeDefinition 1021 1128	improvement from a baseline score of 2-5 to a score of 6 or 7 or from a baseline score of 6 to a score of 7
+R5	DefinedAs Arg1:T8 Arg2:T9	
+T10	OtherOutcome 1135 1160	time to modified recovery
+T11	OutcomeDefinition 1162 1337	improvement from a baseline score of 2-4 to a score of 5-7, improvement from a baseline score of 5 to a score of 6-7, or improvement from a baseline score of 6 to a score of 7
+R6	DefinedAs Arg1:T10 Arg2:T11	
+T12	OtherOutcome 1344 1372	time to clinical improvement
+T13	OutcomeDefinition 1373 1437	(≥2-point improvement from baseline on the 7-point ordinal scale
+R7	DefinedAs Arg1:T12 Arg2:T13	
+T14	OtherOutcome 1444 1481	time to 1-point or larger improvement
+T15	OtherOutcome 1491 1536	time to discontinuation of any oxygen support
+T16	OtherOutcome 1661 1688	duration of hospitalization
+T17	TimeFrame 1605 1625	on days 5, 7, and 11
+R8	MeasuredAt Arg1:T8 Arg2:T17	
+R9	MeasuredAt Arg1:T10 Arg2:T17	
+R10	MeasuredAt Arg1:T12 Arg2:T17	
+R11	MeasuredAt Arg1:T14 Arg2:T17	
+R12	MeasuredAt Arg1:T15 Arg2:T17	
+T18	OtherOutcome 1690 1740	duration of different modes of respiratory support
+T19	OtherOutcome 1746 1765	all-cause mortality

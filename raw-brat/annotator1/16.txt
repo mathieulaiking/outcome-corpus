@@ -1,0 +1,4 @@
+Outcomes
+The primary endpoint was time to achieve a negative RT-PCR result for SARS-CoV-2 in a nasopharyngeal swab sample. Secondary clinical endpoints were time to resolution of symptoms defined as a NEWS2 of 0 maintained for 24 h; daily NEWS2 and sequential organ failure assessment (SOFA) score; length of hospital stay; and 30-day mortality. Other virological endpoints included the time to achieve negative SARS-CoV-2 RT-PCR in all clinical samples, including nasopharyngeal swab, posterior oropharyngeal saliva, throat swab, stool, and urine; daily viral load changes in the first 7 days; and emergence of amino acid mutations in the nsp5 gene encoding a 3C-like protease.
+The serum cytokine response was also measured.
+Safety endpoints were the frequencies and duration of adverse events

@@ -1,0 +1,5 @@
+T1	OtherOutcome 685 697	negative PCR
+T2	OtherOutcome 702 724	resolution of symptoms
+T3	OtherOutcome 961 976	Adverse effects
+T4	OutcomeDefinition 1018 1086	pharmacological side effects of the particular drug during treatment
+R1	DefinedAs Arg1:T3 Arg2:T4	

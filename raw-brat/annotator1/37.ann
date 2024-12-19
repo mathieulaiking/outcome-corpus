@@ -1,0 +1,33 @@
+T1	PrimaryOutcome 62 94	time to clinical recovery (TTCR)
+T2	OutcomeDefinition 111 165	number of days from randomization to clinical recovery
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 221 543	have achieved clinical recovery when they had met all of the following criteria for at least 48 hours: 1. axillary body temperature ≤36.9°C or oral body temperature ≤37.2°C; 2. complete relief of all symptoms other than cough; 3. cough graded as mild or absent on a patient-reported scale of severe, moderate, mild, absent
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	TimeFrame 586 600	(up to 28 days
+T5	SecondaryOutcome 606 639	time to SARS-CoV-2 RNA negativity
+T6	OutcomeDefinition 656 803	time from randomization to the day of the first test in two consecutive tests of nasopharyngeal or oropharyngeal swabs with negative SARS-CoV-2 RNA
+R3	DefinedAs Arg1:T5 Arg2:T6	
+R4	MeasuredAt Arg1:T5 Arg2:T4	
+T7	SecondaryOutcome 808 831	length of hospital stay
+T8	OutcomeDefinition 848 894	number of days from randomization to discharge
+R5	DefinedAs Arg1:T7 Arg2:T8	
+R6	MeasuredAt Arg1:T7 Arg2:T4	
+T9	SecondaryOutcome 899 923	Changes on chest CT scan
+R7	MeasuredAt Arg1:T9 Arg2:T4	
+T10	SecondaryOutcome 928 971	duration (days) of supplemental oxygenation
+R8	MeasuredAt Arg1:T10 Arg2:T4	
+T11	SecondaryOutcome 976 1003	frequency of adverse events
+R9	MeasuredAt Arg1:T11 Arg2:T4	
+T12	SecondaryOutcome 1008 1023	clinical status
+R10	MeasuredAt Arg1:T12 Arg2:T4	
+T13	SecondaryOutcome 1028 1047	all-cause mortality
+R11	MeasuredAt Arg1:T13 Arg2:T4	
+T14	SecondaryOutcome 1052 1095	duration (days) of supplemental oxygenation
+R12	MeasuredAt Arg1:T14 Arg2:T4	
+T15	SecondaryOutcome 1100 1111	vital signs
+R13	MeasuredAt Arg1:T15 Arg2:T4	
+T16	SecondaryOutcome 1117 1146	results of laboratory testing
+R14	MeasuredAt Arg1:T16 Arg2:T4	
+T17	OtherOutcome 1555 1618	Changes in cytokine levels and COVID-19-specific IgG/IgM levels
+T18	TimeFrame 1633 1673	during the first week of hospitalization
+R15	MeasuredAt Arg1:T17 Arg2:T18	

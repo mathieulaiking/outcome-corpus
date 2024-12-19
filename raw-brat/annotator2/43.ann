@@ -1,0 +1,15 @@
+T1	PrimaryOutcome 57 104	maximum high-sensitivity cardiac troponin level
+T2	PrimaryOutcome 110 190	time for C-reactive protein to reach more than 3 times the upper reference limit
+T3	PrimaryOutcome 200 268	time to deterioration by 2 points on a 7-grade clinical status scale
+T4	SecondaryOutcome 356 419	the percentage of participants requiring mechanical ventilation
+T5	SecondaryOutcome 425 444	all-cause mortality
+T6	SecondaryOutcome 454 511	number, type, severity, and seriousness of adverse events
+T7	OtherOutcome 783 875	difference in maximal high-sensitivity cardiac troponin (hs cTn) levels between the 2 groups
+T8	OtherOutcome 884 974	time for C-reactive protein to reach levels greater than 3 times the upper reference limit
+T9	OutcomeDefinition 1134 1360	based on the World Health Organization R&D Blueprint Ordinal Clinical Scale,9 as used in previously published studies,10 within a time frame of 3 weeks after randomization or until hospital discharge (whichever occurred first)
+R1	DefinedAs Arg1:T3 Arg2:T9	
+T10	SecondaryOutcome 1865 1924	percentage of participants requiring mechanical ventilation
+T11	SecondaryOutcome 1926 1945	all-cause mortality
+T12	TimeFrame 1946 1969	at the end of follow-up
+R2	MeasuredAt Arg1:T11 Arg2:T12	
+T13	SecondaryOutcome 1979 2079	number, type, severity, and seriousness of total adverse events and treatment-related adverse events

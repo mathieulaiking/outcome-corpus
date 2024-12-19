@@ -1,0 +1,21 @@
+T1	PrimaryOutcome 50 119	mechanical ventilation, hospitalization >14 days or in-hospital death
+T2	SecondaryOutcome 151 181	days of mechanical ventilation
+T3	SecondaryOutcome 183 221	days of high-flow nasal cannula (HFNC)
+T4	SecondaryOutcome 223 249	days of oxygen requirement
+T5	SecondaryOutcome 251 306	time to respiratory failure development (PaO2/FiO2<200)
+T6	SecondaryOutcome 312 366	severity of multiple organ dysfunction (by SOFA score)
+T7	TimeFrame 367 381	at day 3 and 7
+R1	MeasuredAt Arg1:T6 Arg2:T7	
+T8	SecondaryOutcome 383 420	days in ICU or intermediate care unit
+T9	SecondaryOutcome 422 445	hospital length of stay
+T10	SecondaryOutcome 451 460	mortality
+T11	TimeFrame 461 471	at 30 days
+R2	MeasuredAt Arg1:T10 Arg2:T11	
+T12	SecondaryOutcome 755 810	comparison of infiltrates progression on chest CT scans
+T13	TimeFrame 811 834	on enrollment and day 5
+R3	MeasuredAt Arg1:T12 Arg2:T13	
+T14	OtherOutcome 1048 1118	pre-planned analyses of baseline neutralizing antibodies (NAbs) titers
+T15	OtherOutcome 1124 1150	anti-SARS-CoV-2 IgG titers
+T16	TimeFrame 1308 1326	on days 0, 3 and 7
+R4	MeasuredAt Arg1:T15 Arg2:T16	
+R5	MeasuredAt Arg1:T14 Arg2:T16	

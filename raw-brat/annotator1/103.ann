@@ -1,0 +1,11 @@
+T3	SecondaryOutcome 169 244	improvement of clinical symptoms (cough, diarrhea, dyspnea, fever, myalgia)
+T4	TimeFrame 245 271	before and after treatment
+T5	SecondaryOutcome 277 315	changes of blood routine test and IL-6
+R1	MeasuredAt Arg1:T3 Arg2:T4	
+T6	SecondaryOutcome 317 342	changes of oxygen therapy
+T7	OtherOutcome 378 438	peripheral blood T lymphocyte subsets (count and proportion)
+T8	TimeFrame 439 465	before and after treatment
+R2	MeasuredAt Arg1:T7 Arg2:T8	
+T1	PrimaryOutcome 38 75	cumulative lung lesion remission rate
+T2	OutcomeDefinition 77 138	lung CT examination indicated absorption of lung inflammation
+R3	DefinedAs Arg1:T1 Arg2:T2	

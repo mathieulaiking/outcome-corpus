@@ -1,0 +1,20 @@
+T1	PrimaryOutcome 44 72	time to clinical improvement
+T2	TimeFrame 73 107	within 28 days after randomisation
+T3	OutcomeDefinition 145 284	a two-point reduction in patients' admission status on a six-point ordinal scale, or live discharge from the hospital, whichever came first
+R1	DefinedAs Arg1:T1 Arg2:T3	
+T4	OutcomeDefinition 286 912	The six-point scale was as follows: death=6; hospital admission for extracorporeal membrane oxygenation or mechanical ventilation=5; hospital admission for non-invasive ventilation or high-flow oxygen therapy=4; hospital admission for oxygen therapy (but not requiring high-flow or non-invasive ventilation)=3; hospital admission but not requiring oxygen therapy=2; and discharged or having reached discharge criteria (defined as clinical recovery—ie, normalisation of pyrexia, respiratory rate <24 breaths per minute, saturation of peripheral oxygen >94% on room air, and relief of cough, all maintained for at least 72 h)=1.
+R2	DefinedAs Arg1:T1 Arg2:T4	
+T5	SecondaryOutcome 1107 1170	proportions of patients in each category of the six-point scale
+T6	TimeFrame 1171 1211	at day 7, 14, and 28 after randomisation
+R3	MeasuredAt Arg1:T5 Arg2:T6	
+T7	SecondaryOutcome 1213 1232	all-cause mortality
+T8	TimeFrame 1233 1242	at day 28
+R4	MeasuredAt Arg1:T7 Arg2:T8	
+T9	SecondaryOutcome 1244 1288	frequency of invasive mechanical ventilation
+T10	SecondaryOutcome 1290 1316	duration of oxygen therapy
+T11	SecondaryOutcome 1318 1348	duration of hospital admission
+T12	SecondaryOutcome 1354 1402	proportion of patients with nosocomial infection
+T13	OtherOutcome 1438 1504	proportions of patients with viral RNA detected and viral RNA load
+T14	OtherOutcome 1565 1598	treatment-emergent adverse events
+T15	OtherOutcome 1600 1622	serious adverse events
+T16	OtherOutcome 1628 1668	premature discontinuations of study drug

@@ -1,0 +1,7 @@
+ Primary outcome
+
+The primary outcome was the time to clinical improvement, defined as the time from enrollment to an improvement of two points on a seven-category ordinal scale33 (Supplementary Table 4) or live discharge from the hospital, whichever came first.
+
+Secondary outcomes
+
+Secondary outcomes included the time to radiological improvement defined as the time from enrollment to radiological improvement on chest CT scans, the time to virus nucleic acid negative conversion defined as the time from enrollment to two consecutive negative tests for SARS-CoV-2 via qRT-PCR on nasopharyngeal swabs samples, the overall rate of clinical improvement assessed on day 28. Safety outcomes included treatment-emergent AEs and SAEs, classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 4.0. AEs and SAEs were assessed and recorded once daily by trained researchers from day 0 to day 28. Other secondary outcomes included overall rates of radiological improvement on days 7, 14, and 28 on chest CT scans, overall rates of virus nucleic acid negative conversion via qRT-PCR on nasopharyngeal swabs samples on days 7, 14, and 28,  and the rates of deterioration or death on day 28.

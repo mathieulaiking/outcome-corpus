@@ -1,0 +1,28 @@
+T1	PrimaryOutcome 48 86	reduction in lethality by at least 50%
+T2	TimeFrame 234 243	on day 13
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 275 302	participant clinical status
+T4	SecondaryOutcome 304 327	laboratory examinations
+T6	TimeFrame 387 396	to day 28
+R2	MeasuredAt Arg1:T3 Arg2:T6	
+R3	MeasuredAt Arg1:T4 Arg2:T6	
+T7	OtherOutcome 398 439	Viral respiratory secretion RNA detection
+T8	TimeFrame 454 469	on days 0 and 4
+R5	MeasuredAt Arg1:T7 Arg2:T8	
+T9	OtherOutcome 508 553	adverse events that occurred during treatment
+T10	OtherOutcome 555 577	serious adverse events
+T11	OtherOutcome 583 634	premature or temporary discontinuation of treatment
+T12	OutcomeDefinition 656 756	classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events
+R6	DefinedAs Arg1:T9 Arg2:T12	
+T5	SecondaryOutcome 1060 1077	electrocardiogram
+T13	TimeFrame 1078 1095	on days 13 and 28
+R4	MeasuredAt Arg1:T5 Arg2:T13	
+T14	SecondaryOutcome 1097 1141	daily clinical status during hospitalization
+T15	SecondaryOutcome 1143 1193	duration of mechanical ventilation (if applicable)
+T16	SecondaryOutcome 1198 1234	supplementary oxygen (if applicable)
+T17	SecondaryOutcome 1244 1293	time (in days) from treatment initiation to death
+T18	SecondaryOutcome 985 994	lethality
+T19	SecondaryOutcome 1006 1033	participant clinical status
+T20	SecondaryOutcome 1035 1058	laboratory examinations
+T21	TimeFrame 995 1004	on day 13
+R7	MeasuredAt Arg1:T18 Arg2:T21	

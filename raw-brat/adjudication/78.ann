@@ -1,0 +1,36 @@
+T1	PrimaryOutcome 51 66	clinical status
+T2	OutcomeDefinition 67 549	assessed on a 7-category ordinal scale (1, discharged or ready for discharge; 2, non–intensive care unit [ICU] hospital ward, not requiring supplemental oxygen; 3, non–ICU hospital ward, requiring supplemental oxygen; 4, ICU or non–ICU hospital ward, requiring noninvasive ventilation or high-flow oxygen; 5, ICU, requiring intubation and mechanical ventilation; 6, ICU, requiring extracorporeal membrane oxygenation or mechanical ventilation and additional organ support; 7, death)
+T3	TimeFrame 550 559	at day 28
+R1	DefinedAs Arg1:T1 Arg2:T2	
+R2	MeasuredAt Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 678 693	clinical status
+T5	OtherOutcome 561 576	Clinical status
+T6	TimeFrame 590 638	at baseline and every day during hospitalization
+R3	MeasuredAt Arg1:T5 Arg2:T6	
+T7	TimeFrame 694 703	at day 14
+T8	OutcomeDefinition 704 735	on the 7-category ordinal scale
+R4	MeasuredAt Arg1:T4 Arg2:T7	
+R5	DefinedAs Arg1:T4 Arg2:T8	
+T9	SecondaryOutcome 737 746	mortality
+T10	TimeFrame 747 756	at day 28
+R6	MeasuredAt Arg1:T9 Arg2:T10	
+T11	SecondaryOutcome 758 778	ventilator-free days
+T12	TimeFrame 779 788	to day 28
+R7	MeasuredAt Arg1:T11 Arg2:T12	
+T13	SecondaryOutcome 790 809	time to improvement
+T14	TimeFrame 810 823	from baseline
+T15	OutcomeDefinition 824 872	in ≥2 categories on the 7-category ordinal scale
+R8	MeasuredAt Arg1:T13 Arg2:T14	
+R9	DefinedAs Arg1:T13 Arg2:T15	
+T17	OutcomeDefinition 941 1057	normal body temperature and respiratory rate and stable oxygen saturation on ambient air or ≤2 L supplemental oxygen
+T19	SecondaryOutcome 1096 1120	time to clinical failure
+T20	OutcomeDefinition 1132 1339	death, withdrawal during hospitalization, mechanical ventilation, or ICU transfer (for patients intubated or in the ICU at baseline, a 1-category worsening of clinical status was considered clinical failure)
+R11	DefinedAs Arg1:T19 Arg2:T20	
+T21	SecondaryOutcome 1341 1435	incidence of mechanical ventilation (among those not mechanically ventilated at randomization)
+T22	SecondaryOutcome 1437 1500	incidence of ICU transfer (among those not in ICUs at baseline)
+T23	SecondaryOutcome 1506 1526	duration of ICU stay
+T24	OtherOutcome 1528 1542	Adverse events
+T25	OutcomeDefinition 1557 1652	according to Medical Dictionary for Regulatory Activities system organ class and preferred term
+R12	DefinedAs Arg1:T24 Arg2:T25	
+T16	SecondaryOutcome 878 928	time to hospital discharge (or ready for discharge
+R10	DefinedAs Arg1:T16 Arg2:T17	

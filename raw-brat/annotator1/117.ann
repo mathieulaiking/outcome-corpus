@@ -1,0 +1,9 @@
+T1	PrimaryOutcome 60 83	rate of hospitalization
+T2	SecondaryOutcome 109 177	clinical improvements (e.g., resolution of fever, cough and dyspnea)
+T3	SecondaryOutcome 182 208	improvement of CT findings
+T4	TimeFrame 209 253	at days 14 after initiation of the treatment
+R1	MeasuredAt Arg1:T3 Arg2:T4	
+T5	TimeFrame 406 452	at onset of admission and 5th day of treatment
+R2	MeasuredAt Arg1:T2 Arg2:T5	
+T6	OutcomeDefinition 547 888	For each patient, the chest CT scan was evaluated for the presence of groundglass opacities and/or consolidation. Each five lobe of the lung was assessed and the overall lung involvement was reached by summing the five lobe scores (range of possible scores, 0 – 20 for each lobe and total lung involvement of possible score of 0-100 percent)
+R3	DefinedAs Arg1:T3 Arg2:T6	

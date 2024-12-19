@@ -1,0 +1,8 @@
+T1	PrimaryOutcome 48 71	length of hospital stay
+T2	SecondaryOutcome 105 131	frequency of ICU admission
+T3	SecondaryOutcome 133 164	invasive mechanical ventilation
+T4	SecondaryOutcome 166 191	duration of ICU admission
+T5	SecondaryOutcome 193 215	mechanical ventilation
+T6	SecondaryOutcome 234 264	frequency and time to recovery
+T7	OutcomeDefinition 266 301	defined as hospital discharge alive
+R1	DefinedAs Arg1:T6 Arg2:T7	

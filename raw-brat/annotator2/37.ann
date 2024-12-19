@@ -1,0 +1,39 @@
+T1	PrimaryOutcome 62 94	time to clinical recovery (TTCR)
+T2	OutcomeDefinition 107 165	the number of days from randomization to clinical recovery
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 267 544	met all of the following criteria for at least 48 hours: 1. axillary body temperature ≤36.9°C or oral body temperature ≤37.2°C; 2. complete relief of all symptoms other than cough; 3. cough graded as mild or absent on a patient-reported scale of severe, moderate, mild, absent.
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	TimeFrame 587 600	up to 28 days
+T5	TimeFrame 167 191	Maximum TTCR was 28 days
+R3	MeasuredAt Arg1:T1 Arg2:T5	
+T6	SecondaryOutcome 606 639	time to SARS-CoV-2 RNA negativity
+T7	OutcomeDefinition 652 803	the time from randomization to the day of the first test in two consecutive tests of nasopharyngeal or oropharyngeal swabs with negative SARS-CoV-2 RNA
+T8	SecondaryOutcome 808 831	length of hospital stay
+T9	OutcomeDefinition 844 894	the number of days from randomization to discharge
+T10	SecondaryOutcome 899 923	Changes on chest CT scan
+T11	SecondaryOutcome 928 971	duration (days) of supplemental oxygenation
+T12	SecondaryOutcome 976 1003	frequency of adverse events
+T13	SecondaryOutcome 1008 1023	clinical status
+T14	SecondaryOutcome 1028 1047	all-cause mortality
+T15	SecondaryOutcome 1052 1095	duration (days) of supplemental oxygenation
+T16	SecondaryOutcome 1100 1111	vital signs
+T17	SecondaryOutcome 1117 1146	results of laboratory testing
+R4	DefinedAs Arg1:T6 Arg2:T7	
+R5	DefinedAs Arg1:T8 Arg2:T9	
+R6	MeasuredAt Arg1:T6 Arg2:T4	
+R7	MeasuredAt Arg1:T8 Arg2:T4	
+R8	MeasuredAt Arg1:T10 Arg2:T4	
+R9	MeasuredAt Arg1:T11 Arg2:T4	
+R10	MeasuredAt Arg1:T12 Arg2:T4	
+R11	MeasuredAt Arg1:T13 Arg2:T4	
+R12	MeasuredAt Arg1:T14 Arg2:T4	
+R13	MeasuredAt Arg1:T15 Arg2:T4	
+R14	MeasuredAt Arg1:T16 Arg2:T4	
+R15	MeasuredAt Arg1:T17 Arg2:T4	
+T18	OutcomeDefinition 1159 1288	semi-quantitative scoring system similar to the method reported by Pan et al. to estimate the pulmonary manifestations on CT scan
+R16	DefinedAs Arg1:T10 Arg2:T18	
+T19	OtherOutcome 1555 1581	Changes in cytokine levels
+T20	OtherOutcome 1586 1618	COVID-19-specific IgG/IgM levels
+T21	TimeFrame 1644 1673	first week of hospitalization
+R17	MeasuredAt Arg1:T19 Arg2:T21	
+R18	MeasuredAt Arg1:T20 Arg2:T21	

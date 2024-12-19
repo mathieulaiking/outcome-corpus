@@ -1,0 +1,10 @@
+ Outcome measures
+
+The research objective of this study was the assessment of potential superiority of ARB compared to KALETRA on management of patients with COVID-19. The primary outcome was duration of hospitalization and clinical improvement 7 days after admission. The criteria of improvement were relief of cough, dyspnea, and fever. Time to relieving fever was also assessed across the two groups.
+The secondary outcomes were death during the 30 days of treatment, duration of hospitalization, changing laboratory tests during 7 days, changing of CT findings after 30 days, and the need for invasive mechanical ventilation.
+
+We documented the age, gender, job, education status, underlying disease (history of diabetes, ischemic heart disease, hypertension, asthma,) and smoking status, as demographic variables. Fever, cough, dyspnea, nausea and vomiting, diarrhea, fatigue and weakness, loss of appetite, and taste were also documented at the first day of admission. The saturation of peripheral oxygen, C-reactive protein (CRP), complete blood cell count (CBC), erythrocyte sedimentation rate (ESR), aspartate transaminase (AST), alanine aminotransferase (ALT), white blood cell count (WBC), lymphocyte and neutrophil count, neutrophil lymphocyte ratio, total bilirubin, blood Na and K, creatinine and thyroid stimulating hormone (TSH) were measured at the first day of admission and 7 days after. The CT scan and chest X-ray were taken at the first day of admission and 30 days after. The PCR test was taken at admission and the time of discharge.
+
+We considered the following criteria for discharge from hospital: Resolution of fever at least for 72 h and decreasing trend in LDH and CRP and lymphocytosis significant and having normal saturation of peripheral oxygen.
+
+We categorized the patients to three groups based on severity of disease according to the CT scan and chest X-ray findings. Mild, moderate and severe categories were defined as involvement of base, less and more than 50% of the lung field respectively in CXR and CT scan.

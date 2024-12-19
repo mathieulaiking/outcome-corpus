@@ -1,0 +1,12 @@
+T1	PrimaryOutcome 48 74	duration of viral shedding
+T2	OutcomeDefinition 101 196	time from randomization to the first negative nucleic acid test of 5 consecutive RT-PCR results
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	OtherOutcome 231 287	clinical status (ie, progressive rate to severe illness)
+T4	OtherOutcome 289 298	syndromes
+T5	OtherOutcome 300 322	peripheral blood cells
+T6	OtherOutcome 328 350	biochemical parameters
+T7	OtherOutcome 352 397	C-reactive protein and inflammatory cytokines
+T8	OtherOutcome 403 426	length of hospital stay
+T9	OtherOutcome 453 473	adverse events (AEs)
+T10	OtherOutcome 506 517	serious AEs
+T11	OtherOutcome 523 561	premature discontinuation of treatment

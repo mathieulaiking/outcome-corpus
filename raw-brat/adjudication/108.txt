@@ -1,0 +1,3 @@
+ Outcomes
+
+The primary endpoint was the timing to achieve viral RNA negative conversion for SARS-CoV-2 in all three specimens, including nasopharyngeal swabs, throat swabs and stool swabs. When a COVID-19 patient was discharged from hospital, the viral RNA negative conversion of all three specimens needed to be considered. The secondary clinical endpoint was the timing when CT imaging improvement was observed, which was mainly based on the size and density reduction of lesions. Safety data included adverse events during treatment, severe adverse events, and premature discontinuation of treatment. Adverse events were classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 5.0 [23].

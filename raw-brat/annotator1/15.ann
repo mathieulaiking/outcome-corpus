@@ -1,0 +1,18 @@
+T1	PrimaryOutcome 80 122	percentage of subjects with viral negative
+T2	TimeFrame 123 132	by Day 14
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	PrimaryOutcome 141 188	time from randomization to clinical improvement
+T4	OutcomeDefinition 190 387	defined as the time from randomization to an improvement of two points (from the status at randomization) on a seven-category ordinal scale or live discharge from the hospital, whichever came first
+R2	DefinedAs Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 597 639	percentage of subjects with viral negative
+T6	TimeFrame 640 648	by Day 7
+R3	MeasuredAt Arg1:T5 Arg2:T6	
+T7	SecondaryOutcome 654 689	incidence of mechanical ventilation
+T8	TimeFrame 690 699	by Day 14
+R4	MeasuredAt Arg1:T7 Arg2:T8	
+T9	SecondaryOutcome 701 714	ICU admission
+T10	TimeFrame 715 724	by Day 14
+R5	MeasuredAt Arg1:T9 Arg2:T10	
+T11	SecondaryOutcome 730 749	all-cause mortality
+T12	TimeFrame 750 758	by Day14
+R6	MeasuredAt Arg1:T11 Arg2:T12	

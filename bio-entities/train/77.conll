@@ -1,0 +1,44 @@
+Outcomes	O
+
+Outcomes	O
+of	O
+effectiveness	O
+included	O
+rate	B-OtherOutcome
+of	I-OtherOutcome
+ICU	I-OtherOutcome
+admission	I-OtherOutcome
+and	O
+deaths	B-OtherOutcome
+.	O
+
+The	O
+working	O
+hypothesis	O
+of	O
+this	O
+pilot	O
+trial	O
+was	O
+that	O
+calcifediol	O
+treatment	O
+would	O
+decrease	O
+the	O
+need	O
+for	O
+ICU	O
+admissions	O
+and	O
+the	O
+potential	O
+risk	O
+of	O
+death	O
+associated	O
+with	O
+these	O
+admissions	O
+.	O
+

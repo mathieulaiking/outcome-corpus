@@ -1,0 +1,12 @@
+T1	OtherOutcome 3194 3235	SARS-CoV-2 clearance in COVID-19 patients
+T2	TimeFrame 3016 3051	on day three, day six, and day nine
+T3	OutcomeDefinition 3251 3364	two consecutive negative-detection of SARS-CoV-2 RNA in nasopharyngeal swab samples with an interval of over 24 h
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	OtherOutcome 3366 3380	Adverse events
+T5	OutcomeDefinition 3418 3506	reported and graded based on the WHO Toxicity Grading Scale for Determining the Severity
+R3	DefinedAs Arg1:T4 Arg2:T5	
+T6	PrimaryOutcome 4000 4027	SARS-CoV-2  clearance rates
+T7	TimeFrame 4058 4091	on day six of antiviral treatment
+T8	SecondaryOutcome 4124 4159	median time to SARS-CoV-2 clearance
+R4	MeasuredAt Arg1:T6 Arg2:T7	

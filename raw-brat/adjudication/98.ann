@@ -1,0 +1,10 @@
+T1	PrimaryOutcome 547 572	Length of hospitalization
+T2	PrimaryOutcome 578 586	symptoms
+T3	PrimaryOutcome 595 613	Co-existed disease
+T4	TimeFrame 641 673	examined 2 weeks after discharge
+T5	SecondaryOutcome 691 714	mortality and morbidity
+T6	SecondaryOutcome 720 732	re-admission
+T7	SecondaryOutcome 741 749	symptoms
+R1	MeasuredAt Arg1:T5 Arg2:T4	
+R2	MeasuredAt Arg1:T6 Arg2:T4	
+R3	MeasuredAt Arg1:T7 Arg2:T4	

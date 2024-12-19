@@ -1,0 +1,5 @@
+T1	OtherOutcome 49 198	time needed for resolution of fever, cough, shortness of breath and finally, full recovery from all symptoms and the negative result of repeat RT-PCR
+T2	TimeFrame 199 208	on day 10
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 239 370	time required for the resolution of symptom(s) from the date of enrolment in the study as well as from the onset of initial illness
+R2	DefinedAs Arg1:T1 Arg2:T3	

@@ -1,0 +1,19 @@
+T1	PrimaryOutcome 42 74	the time to clinical improvement
+T2	OutcomeDefinition 76 261	defined as the time from enrollment to an improvement of two points on a seven-category ordinal scale33 (Supplementary Table 4) or live discharge from the hospital, whichever came first
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 316 348	time to radiological improvement
+T4	OutcomeDefinition 364 430	time from enrollment to radiological improvement on chest CT scans
+R2	DefinedAs Arg1:T3 Arg2:T4	
+T5	OtherOutcome 699 845	treatment-emergent AEs and SAEs, classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 4.0
+T6	TimeFrame 887 941	once daily by trained researchers from day 0 to day 28
+R3	MeasuredAt Arg1:T5 Arg2:T6	
+T7	SecondaryOutcome 977 1018	overall rates of radiological improvement
+T8	TimeFrame 1019 1040	on days 7, 14, and 28
+T9	OutcomeDefinition 1041 1058	on chest CT scans
+R4	DefinedAs Arg1:T7 Arg2:T9	
+R5	MeasuredAt Arg1:T7 Arg2:T8	
+T10	SecondaryOutcome 1060 1159	overall rates of virus nucleic acid negative conversion via qRT-PCR on nasopharyngeal swabs samples
+T11	TimeFrame 1160 1181	on days 7, 14, and 28
+R6	MeasuredAt Arg1:T10 Arg2:T11	
+T12	SecondaryOutcome 1192 1223	rates of deterioration or death
+T13	TimeFrame 1224 1233	on day 28

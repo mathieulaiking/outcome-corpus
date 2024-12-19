@@ -1,0 +1,11 @@
+T1	PrimaryOutcome 689 713	total time of intubation
+T2	OutcomeDefinition 726 837	the sum of the time spent from the beginning of bronchoscopy until proper tracheal tube placement was confirmed
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 876 905	lowest Spo2 during intubation
+T4	SecondaryOutcome 907 950	incidence of mask ventilation for Spo2 <90%
+T5	SecondaryOutcome 952 979	Pao2/Fio2 before intubation
+T6	SecondaryOutcome 981 1021	incidence of Spo2 <80% during intubation
+T7	SecondaryOutcome 1023 1071	incidence of minimum Spo2 >95% during intubation
+T8	SecondaryOutcome 1083 1092	mortality
+T9	TimeFrame 1077 1082	7 day
+R2	MeasuredAt Arg1:T8 Arg2:T9	

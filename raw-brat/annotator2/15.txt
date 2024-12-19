@@ -1,0 +1,4 @@
+Outcomes
+Primary and Secondary Outcomes
+
+The primary efficacy end point was the percentage of subjects with viral negative by Day 14 and the time from randomization to clinical improvement, defined as the time from randomization to an improvement of two points (from the status at randomization) on a seven-category ordinal scale or live discharge from the hospital, whichever came first. The ordinal scale, which is refer to National Early Warning Score 2 (NEWS2), have been used as end points in clinical trials in patients hospitalized with COVID-19. Secondary clinical end points included the percentage of subjects with viral negative by Day 7, the incidence of mechanical ventilation by Day 14, ICU admission by Day 14, and all-cause mortality by Day14.

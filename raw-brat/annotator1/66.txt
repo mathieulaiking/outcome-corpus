@@ -1,0 +1,3 @@
+ Outcomes
+
+The primary endpoint of this trial was clinical recovery within 14 days of enrolment. Clinical recovery was defined as normalization of fever (≤37.2°C), respiratory rate (≤24/min) and oxygen saturation (≥94%) without supplementary oxygen therapy sustained for at least 24 h. If patients maintained these criteria for over 24 h they were safely discharged from hospital. Other secondary endpoints included all-cause mortality, requirement for mechanical ventilation, duration of hospital stay and time to hospital discharge. Safety endpoints were measured as frequencies of serious adverse events. Outcomes were extracted from patient files and medical progress notes by a researcher blinded to the allocation of patients.

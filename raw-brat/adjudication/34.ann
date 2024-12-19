@@ -1,0 +1,11 @@
+T1	PrimaryOutcome 43 62	all-cause mortality
+T2	TimeFrame 63 142	within 28 days after randomization; further analyses were specified at 6 months
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T4	SecondaryOutcome 172 210	time until discharge from the hospital
+T5	SecondaryOutcome 307 417	subsequent receipt of invasive mechanical ventilation (including extracorporeal membrane oxygenation) or death
+T6	OtherOutcome 465 489	cause-specific mortality
+T7	OtherOutcome 491 534	receipt of renal dialysis or hemofiltration
+T8	OtherOutcome 536 560	major cardiac arrhythmia
+T9	OtherOutcome 591 626	receipt and duration of ventilation
+T10	OutcomeDefinition 798 840	cessation within (and survival to) 28 days
+R3	DefinedAs Arg1:T5 Arg2:T10	

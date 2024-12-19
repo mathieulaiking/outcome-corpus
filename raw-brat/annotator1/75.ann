@@ -1,0 +1,20 @@
+T1	PrimaryOutcome 33 48	clinical status
+T2	TimeFrame 59 69	at 15 days
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 70 476	using a six-level ordinal scale as follows: (1) not admitted to hospital; (2) admitted to hospital and not using supplemental oxygen; (3) admitted to hospital and using supplemental oxygen; (4) admitted to hospital and using non-invasive positive-pressure ventilation or high-flow nasal cannula; (5) admitted to hospital and on mechanical ventilation or extracorporeal membrane oxygen support; or (6) death
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 508 517	mortality
+T5	TimeFrame 518 548	at 29 days after randomisation
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+T6	SecondaryOutcome 580 595	clinical status
+T7	OutcomeDefinition 596 635	assessed by the six-point ordinal scale
+R4	DefinedAs Arg1:T6 Arg2:T7	
+T8	TimeFrame 636 657	at 7 days and 29 days
+R5	MeasuredAt Arg1:T6 Arg2:T8	
+T9	SecondaryOutcome 659 698	length of hospital stay among survivors
+T10	SecondaryOutcome 700 732	incidence of secondary infection
+T11	OutcomeDefinition 738 807	new infections arising after randomisation, whether nosocomial or not
+R6	DefinedAs Arg1:T10 Arg2:T11	
+T12	SecondaryOutcome 814 844	number of ventilator-free days
+T13	TimeFrame 845 855	by day 29.
+R7	MeasuredAt Arg1:T12 Arg2:T13	

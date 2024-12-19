@@ -1,0 +1,64 @@
+T1	PrimaryOutcome 482 515	negative conversion of SARS-CoV-2
+T2	PrimaryOutcome 573 593	clinical improvement
+T4	TimeFrame 594 604	by 28 days
+R2	MeasuredAt Arg1:T2 Arg2:T4	
+T5	OutcomeDefinition 802 958	two consecutive reports of a negative result for SARS-CoV-2 at least 24 hours apart without a subsequent report of a positive result by the end of the study
+R3	DefinedAs Arg1:T1 Arg2:T5	
+T6	PrimaryOutcome 1120 1144	Negative conversion rate
+A2	Modification T6 Original
+A3	Modification T1 Modified
+T3	SecondaryOutcome 1629 1663	Probability of negative conversion
+T7	TimeFrame 1664 1690	at day 4, 7, 10, 14, or 21
+R1	MeasuredAt Arg1:T3 Arg2:T7	
+T8	SecondaryOutcome 1861 1875	adverse events
+#1	AnnotatorNotes T8	prespecified
+#2	AnnotatorNotes T3	not in the trial registration, but in protocol
+T9	SecondaryOutcome 2231 2280	probabilities of alleviation of clinical symptoms
+#3	AnnotatorNotes T9	not in the trial registration
+T10	SecondaryOutcome 2282 2315	improvement of C reactive protein
+#4	AnnotatorNotes T10	not in the trial registration
+T11	SecondaryOutcome 2317 2347	erythrocyte sedimentation rate
+#5	AnnotatorNotes T11	not in the trial registration
+T12	SecondaryOutcome 2349 2373	tumour necrosis factor α
+#6	AnnotatorNotes T12	not in the trial registration
+T13	SecondaryOutcome 2375 2388	interleukin 6
+#7	AnnotatorNotes T13	not in the trial registration
+T14	SecondaryOutcome 2394 2425	absolute blood lymphocyte count
+#8	AnnotatorNotes T14	not in the trial registration
+T15	SecondaryOutcome 2427 2473	improvement of lung lesions on chest radiology
+#9	AnnotatorNotes T15	not in the trial registration
+T16	SecondaryOutcome 2475 2490	all cause death
+#10	AnnotatorNotes T16	not in the trial registration
+T17	SecondaryOutcome 2496 2557	disease progression in patients with mild to moderate disease
+#11	AnnotatorNotes T17	not in the trial registration
+T18	TimeFrame 2607 2636	from randomisation to 28 days
+R4	MeasuredAt Arg1:T8 Arg2:T18	
+R5	MeasuredAt Arg1:T9 Arg2:T18	
+R6	MeasuredAt Arg1:T10 Arg2:T18	
+R7	MeasuredAt Arg1:T11 Arg2:T18	
+R8	MeasuredAt Arg1:T12 Arg2:T18	
+R9	MeasuredAt Arg1:T13 Arg2:T18	
+R10	MeasuredAt Arg1:T14 Arg2:T18	
+R11	MeasuredAt Arg1:T15 Arg2:T18	
+R12	MeasuredAt Arg1:T16 Arg2:T18	
+R13	MeasuredAt Arg1:T17 Arg2:T18	
+T19	SecondaryOutcome 3009 3041	alleviation of clinical symptoms
+T20	TimeFrame 3042 3056	within 28 days
+R14	MeasuredAt Arg1:T19 Arg2:T20	
+T21	OutcomeDefinition 3189 3431	resolving from fever to an axillary temperature of 36.6°C or below, normalisation of SpO2 (>94% on room air), and disappearance of respiratory symptoms including nasal congestion, cough, sore throat, sputum production, and shortness of breath
+R15	DefinedAs Arg1:T19 Arg2:T21	
+T22	TimeFrame 516 526	by 28 days
+R16	MeasuredAt Arg1:T1 Arg2:T22	
+T23	TimeFrame 1145 1154	by Day 10
+R17	MeasuredAt Arg1:T6 Arg2:T23	
+T24	OutcomeDefinition 1876 2115	coded using the latest version of Medical Dictionary for Regulatory Activities coding dictionary, recorded in standard medical terminology and graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events
+R18	DefinedAs Arg1:T8 Arg2:T24	
+T25	PrimaryOutcome 1528 1561	negative conversion of SARS-CoV-2
+A4	Modification T25 Modified
+T26	TimeFrame 1562 1572	by 28 days
+R19	MeasuredAt Arg1:T25 Arg2:T26	
+T27	PrimaryOutcome 21 91	Negative conversion of severe acute respiratory syndrome coronavirus 2
+T28	TimeFrame 92 102	by 28 days
+R20	MeasuredAt Arg1:T27 Arg2:T28	
+A5	Modification T27 Modified
+T29	OtherOutcome 160 174	Adverse events

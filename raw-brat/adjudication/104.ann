@@ -1,0 +1,26 @@
+T2	TimeFrame 191 238	at baseline, 7, and 14 days after randomization
+T1	PrimaryOutcome 39 74	variation in gas exchange over time
+T3	OutcomeDefinition 75 190	evaluated through the ratio of partial pressure of arterial oxygen (PaO2) to the fraction of inspired oxygen (FiO2)
+R1	DefinedAs Arg1:T1 Arg2:T3	
+R2	MeasuredAt Arg1:T1 Arg2:T2	
+T4	SecondaryOutcome 401 461	time until successful liberation from mechanical ventilation
+T5	SecondaryOutcome 467 487	ventilator-free days
+T7	SecondaryOutcome 591 618	variation in D-dimer levels
+T8	TimeFrame 629 697	at baseline during inclusion in the study and repeated 72–96 h later
+T6	TimeFrame 489 536	during the 28 days after inclusion in the study
+T9	OutcomeDefinition 538 584	numbers of days without mechanical ventilation
+T10	SecondaryOutcome 699 725	all-cause 28-day mortality
+T11	SecondaryOutcome 727 748	in-hospital mortality
+T12	SecondaryOutcome 758 793	intensive care unit (ICU)-free days
+T13	TimeFrame 794 804	at 28 days
+T14	OutcomeDefinition 893 1014	maintenance of spontaneous ventilation without the need for invasive mechanical ventilation support for a minimum of 72 h
+R3	MeasuredAt Arg1:T5 Arg2:T6	
+R4	DefinedAs Arg1:T5 Arg2:T9	
+R5	MeasuredAt Arg1:T7 Arg2:T8	
+R6	MeasuredAt Arg1:T12 Arg2:T13	
+R7	DefinedAs Arg1:T4 Arg2:T14	
+T15	OtherOutcome 1617 1639	occurrence of bleeding
+T16	OutcomeDefinition 1650 1791	Thrombolysis in Myocardial Infarction (TIMI) bleeding criteria, which classified the bleeding in major, minor and requiring medical attention
+R8	DefinedAs Arg1:T15 Arg2:T16	
+R9	MeasuredAt Arg1:T11 Arg2:T13	
+R10	MeasuredAt Arg1:T10 Arg2:T13	

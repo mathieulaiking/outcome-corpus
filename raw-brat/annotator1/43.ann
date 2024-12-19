@@ -1,0 +1,17 @@
+T1	PrimaryOutcome 57 104	maximum high-sensitivity cardiac troponin level
+T2	PrimaryOutcome 110 190	time for C-reactive protein to reach more than 3 times the upper reference limit
+T3	PrimaryOutcome 200 324	time to deterioration by 2 points on a 7-grade clinical status scale, ranging from able to resume normal activities to death
+T4	SecondaryOutcome 360 419	percentage of participants requiring mechanical ventilation
+T5	SecondaryOutcome 425 444	all-cause mortality
+T6	SecondaryOutcome 454 511	number, type, severity, and seriousness of adverse events
+T7	OutcomeDefinition 783 875	difference in maximal high-sensitivity cardiac troponin (hs cTn) levels between the 2 groups
+T8	OutcomeDefinition 884 974	time for C-reactive protein to reach levels greater than 3 times the upper reference limit
+R1	DefinedAs Arg1:T1 Arg2:T7	
+R2	DefinedAs Arg1:T2 Arg2:T8	
+T9	OutcomeDefinition 1087 1834	2-grade increase on an ordinal clinical scale, based on the World Health Organization R&D Blueprint Ordinal Clinical Scale,9 as used in previously published studies,10 within a time frame of 3 weeks after randomization or until hospital discharge (whichever occurred first). The 7-grade ordinal scale consisted of the following levels: 1, ambulatory, normal activities; 2, ambulatory but unable to resume normal activities; 3, hospitalized, not requiring supplemental oxygen; 4, hospitalized, requiring supplemental oxygen; 5, hospitalized, requiring nasal high-flow oxygen therapy, noninvasive mechanical ventilation, or both; 6, hospitalized, requiring extracorporeal membrane oxygenation, invasive mechanical ventilation, or both; and 7, death.
+R3	DefinedAs Arg1:T3 Arg2:T9	
+T10	SecondaryOutcome 1865 1924	percentage of participants requiring mechanical ventilation
+T11	SecondaryOutcome 1926 1945	all-cause mortality
+T12	TimeFrame 1946 1969	at the end of follow-up
+R4	MeasuredAt Arg1:T11 Arg2:T12	
+T13	SecondaryOutcome 1979 2079	number, type, severity, and seriousness of total adverse events and treatment-related adverse events

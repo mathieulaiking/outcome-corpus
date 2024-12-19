@@ -1,0 +1,13 @@
+O
+B-PrimaryOutcome
+I-PrimaryOutcome
+B-SecondaryOutcome
+I-SecondaryOutcome
+B-OtherOutcome
+I-OtherOutcome
+B-UnclearOutcome
+I-UnclearOutcome
+B-OutcomeDefinition
+I-OutcomeDefinition
+B-TimeFrame
+I-TimeFrame

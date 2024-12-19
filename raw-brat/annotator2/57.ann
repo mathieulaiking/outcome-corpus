@@ -1,0 +1,8 @@
+T1	PrimaryOutcome 1274 1296	total in hospital days
+T2	PrimaryOutcome 1305 1324	duration of disease
+T3	OtherOutcome 1425 1447	total blood cell count
+T4	OtherOutcome 1449 1470	total leukocyte count
+T5	OtherOutcome 1472 1490	C-reactive protein
+T6	OtherOutcome 1492 1500	D-dimers
+T7	OtherOutcome 1502 1523	lactate dehydrogenase
+T8	OtherOutcome 1525 1542	oxygen saturation

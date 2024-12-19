@@ -1,0 +1,11 @@
+ Outcomes
+
+The primary outcome was the variation in gas exchange over time evaluated through the ratio of partial pressure of arterial oxygen (PaO2) to the fraction of inspired oxygen (FiO2) at baseline, 7, and 14 days after randomization. This ratio was blindly calculated using the result of the arterial blood gas (ABG) analysis collected routinely around 6:00 am.
+
+The secondary outcomes were the time until successful liberation from mechanical ventilation, the ventilator-free days (during the 28 days after inclusion in the study; numbers of days without mechanical ventilation), the variation in D-dimer levels collected at baseline during inclusion in the study and repeated 72–96 h later, all-cause 28-day mortality, in-hospital mortality, and the intensive care unit (ICU)-free days at 28 days.
+
+To determine the successful liberation from mechanical ventilation, we considered the maintenance of spontaneous ventilation without the need for invasive mechanical ventilation support for a minimum of 72 h. All patients received the lung-protective ventilation strategy with low tidal volume. Each unit used its ventilator liberation protocol. The patients underwent prone positioning of at least 16 h if PaO2/FiO2 ratio < 150 mmHg. Other ventilator adjuncts to improve oxygenation in the setting of severe ARDS, such as inhaled nitric oxide and extracorporeal membrane oxygenation, were not available in our service.
+
+The D-dimer measurement was performed through the automated assay VIDAS® D-dimer Exclusion II™ (bioMérieux SA, Lyon, France) with a cutoff of 500 μg/L.
+
+The safety outcome analyzed was the occurrence of bleeding using the Thrombolysis in Myocardial Infarction (TIMI) bleeding criteria, which classified the bleeding in major, minor and requiring medical attention [14]

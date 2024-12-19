@@ -1,0 +1,11 @@
+Outcomes
+
+The study objective was to evaluate the efficacy and safety of BRH at a dose of 32 mg three times per day in patients with moderate COVID‐19. The primary and secondary outcomes were assessed during the study period of 14 days.
+
+The primary end points were the time to clinical recovery and the deterioration rate after initiation of medications. Clinical recovery was defined as clinical symptoms (fever and respiratory symptoms) returning to normal over 48 hours. Disease deterioration was defined as the presence of respiratory distress, respiratory rate ≥ 30 times/minute, oxygen saturation ≤ 93% in the resting state, and oxygenation index ≤ 300 mmHg.
+
+The secondary outcomes assessed the virologic clearance during the study period (SARS‐CoV‐2‐negative conversion within 20 days, rate of SARS‐CoV‐2‐negative conversion), clinical follow‐up (clinical remission rate, time to fever remission, rate of significant improvement in chest CT, percentage of patients requiring oxygen therapy, and discharge rate within 20 days), and the occurrence of side effects. Deteriorated patients who progressed to severe or critical condition were withdrawn from the study.
+
+Chest CT was blindly interpreted at the baseline (7 days before randomization) and after randomization (7 days ± 1 day) by two experienced radiologists. A semiquantitative scoring system was used to quantitatively assess the pulmonary improvement, and the cases were divided into the following five categories: no improvement (< 10% absorption), mild improvement (10–30% absorption), improvement (30–60% absorption), remarkable improvement (60–90% absorption), and complete improvement (> 90% absorption).
+
+All AEs reported during the study were recorded and graded according to the Common Terminology Criteria for Adverse Events, version 5.0. Assessments of laboratory parameters, physical condition, chest images, and nucleic acid test results were performed at baseline, during the study period, and at the 3‐week follow‐up. Assessments were also conducted at the end of the study period or the time of withdrawal, as appropriate.

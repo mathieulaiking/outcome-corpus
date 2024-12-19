@@ -1,0 +1,3 @@
+T1	UnclearOutcome 553 587	Bronchoalveolar-lavage PCR results
+T2	TimeFrame 893 907	On the 6th day
+R1	MeasuredAt Arg1:T1 Arg2:T2	

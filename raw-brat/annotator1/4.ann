@@ -1,0 +1,19 @@
+T1	PrimaryOutcome 48 76	time to clinical improvement
+T2	OutcomeDefinition 89 275	the time from randomization to an improvement of two points (from the status at randomization) on a seven-category ordinal scale or live discharge from the hospital, whichever came first
+T3	OutcomeDefinition 612 1022	1, not hospitalized with resumption of normal activities; 2, not hospitalized, but unable to resume normal activities; 3, hospitalized, not requiring supplemental oxygen; 4, hospitalized, requiring supplemental oxygen; 5, hospitalized, requiring nasal high-flow oxygen therapy, noninvasive mechanical ventilation, or both; 6, hospitalized, requiring ECMO, invasive mechanical ventilation, or both; and 7, death
+R1	DefinedAs Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	OtherOutcome 1058 1123	clinical status as assessed with the seven-category ordinal scale
+T5	TimeFrame 1124 1140	on days 7 and 14
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+T6	OtherOutcome 1142 1151	mortality
+T7	TimeFrame 1152 1161	at day 28
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+T8	OtherOutcome 1167 1201	duration of mechanical ventilation
+T9	OtherOutcome 1207 1247	duration of hospitalization in survivors
+T10	OtherOutcome 1253 1306	the time (in days) from treatment initiation to death
+T11	OtherOutcome 1474 1488	adverse events
+T12	OtherOutcome 1521 1543	serious adverse events
+T13	OtherOutcome 1549 1587	premature discontinuation of treatment
+T14	OutcomeDefinition 1609 1722	classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 4.0
+R5	DefinedAs Arg1:T11 Arg2:T14	

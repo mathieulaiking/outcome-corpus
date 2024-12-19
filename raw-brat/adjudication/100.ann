@@ -1,0 +1,18 @@
+T1	TimeFrame 32 107	at 28 days after randomisation, with further analyses specified at 6 months
+T2	PrimaryOutcome 140 159	all-cause mortality
+T3	SecondaryOutcome 185 216	time to discharge from hospital
+T4	SecondaryOutcome 294 404	post-enrolment use of invasive mechanical ventilation (including extracorporeal membrane oxygenation) or death
+T5	OtherOutcome 453 477	cause-specific mortality
+T6	OtherOutcome 520 544	major cardiac arrhythmia
+T7	OtherOutcome 479 518	use of haemodialysis or haemofiltration
+T8	OtherOutcome 703 738	suspected serious adverse reactions
+T9	OtherOutcome 573 608	receipt and duration of ventilation
+R1	MeasuredAt Arg1:T3 Arg2:T1	
+R2	MeasuredAt Arg1:T4 Arg2:T1	
+R3	MeasuredAt Arg1:T2 Arg2:T10	
+R4	MeasuredAt Arg1:T5 Arg2:T1	
+R5	MeasuredAt Arg1:T7 Arg2:T1	
+R6	MeasuredAt Arg1:T6 Arg2:T1	
+R7	MeasuredAt Arg1:T9 Arg2:T1	
+R8	MeasuredAt Arg1:T8 Arg2:T1	
+T10	TimeFrame 133 139	28-day

@@ -1,0 +1,6 @@
+T1	PrimaryOutcome 581 627	negative conversion rate of SARS-CoV-2 nucleic
+T2	TimeFrame 664 693	on days 7 after randomization
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OtherOutcome 1048 1084	median duration from hospitalization
+T4	OtherOutcome 1247 1293	median time for body temperature normalization
+T5	OtherOutcome 1418 1465	Radiological progression was shown on CT images

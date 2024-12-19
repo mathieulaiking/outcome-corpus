@@ -1,0 +1,11 @@
+T1	PrimaryOutcome 43 112	clinical parameters, such as the time of need for supplemental oxygen
+T2	PrimaryOutcome 114 137	time of hospitalization
+T3	PrimaryOutcome 139 183	need for admission and length of stay in ICU
+T5	PrimaryOutcome 189 223	death rate and causes of mortality
+T6	SecondaryOutcome 296 317	measures of serum CRP
+T7	SecondaryOutcome 319 394	serum LDH and relation neutrophil to lymphocyte of peripheral blood samples
+T8	TimeFrame 395 417	from day zero to day 7
+R1	MeasuredAt Arg1:T7 Arg2:T8	
+T9	SecondaryOutcome 419 467	the number, type, and severity of adverse events
+T10	SecondaryOutcome 469 538	frequency of interruption of the study protocol due to adverse events
+T11	SecondaryOutcome 544 581	frequency of QT interval above 450 ms

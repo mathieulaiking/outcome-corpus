@@ -1,0 +1,12 @@
+T1	PrimaryOutcome 42 98	rate of nucleic acid negativity conversion of SARS-CoV-2
+T2	PrimaryOutcome 107 133	negativity conversion time
+T3	OutcomeDefinition 168 323	defined as the ratio of patients with negativity nucleic acid testing in FNC group to all patients in FNC group at a certain point in the follow-up process
+R1	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 353 388	improvement rate of chest CT images
+T5	SecondaryOutcome 394 452	time required for the body temperature returning to normal
+T6	SecondaryOutcome 461 506	improvement in respiratory symptoms and signs
+T7	OutcomeDefinition 547 623	defined as a significant reduction in the range of lesions and inflammation.
+R2	DefinedAs Arg1:T4 Arg2:T7	
+T8	OtherOutcome 739 820	vital signs (heart rate, respiratory rate, systolic pressure, diastolic pressure)
+T9	OtherOutcome 822 883	changes in laboratory values (liver function, renal function)
+T10	OtherOutcome 889 1111	adverse events (including type, incidence, severity, time and drug correlation, and assessment of severity according to the National Cancer Institute Common Terminology Criteria for Adverse Events [NCI CTCAE], version 5.0)

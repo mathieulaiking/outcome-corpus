@@ -1,0 +1,28 @@
+T1	PrimaryOutcome 37 103	rate of positive-to-negative conversion of SARS-CoV-2 nucleic acid
+T2	TimeFrame 104 146	from the initiation of treatment to day 21
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 239 305	rate of positive-to-negative conversion of SARS-CoV-2 nucleic acid
+T4	TimeFrame 306 315	at day 14
+T5	SecondaryOutcome 320 343	the rate of antipyresis
+T6	OutcomeDefinition 356 407	axillary temperature ≤37.3°C for more than 72 hours
+T7	TimeFrame 409 440	from the first day of treatment
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+R3	DefinedAs Arg1:T5 Arg2:T6	
+R4	MeasuredAt Arg1:T5 Arg2:T7	
+T8	SecondaryOutcome 449 490	rate of cough alleviation from initiation
+T9	SecondaryOutcome 499 527	improvement rate of chest CT
+T10	TimeFrame 528 544	at days 7 and 14
+R5	MeasuredAt Arg1:T9 Arg2:T10	
+T11	SecondaryOutcome 553 635	deterioration rate of clinical status from mild/moderate to severe/critical status
+T12	TimeFrame 636 659	during the study period
+R6	MeasuredAt Arg1:T11 Arg2:T12	
+T13	OutcomeDefinition 661 1197	The severe status was defined as meeting any of the following criteria: experiencing respiratory distress, RR≥30 times/minute; oxygen saturation ≤93% in the resting state; arterial blood oxygen partial pressure (PaO2)/oxygen concentration (FiO2) ≤300 mmHg (1mmHg = 0.133kPa).5 The critical status was defined as meeting any of the following criteria: development of respiratory failure requiring mechanical ventilation; occurrence of shock; requirement for ICU monitoring and treatment because of complications with other organ failures
+R7	DefinedAs Arg1:T11 Arg2:T13	
+T14	OutcomeDefinition 1314 1421	negative detection of SARS-CoV-2 nucleic acid for two consecutive instances separated by more than 24 hours
+R8	DefinedAs Arg1:T1 Arg2:T14	
+T15	OutcomeDefinition 1423 1570	Criteria of chest CT improvement included: 1) no new exudative lesions; 2) decreasing size of exudative lesions; 3) decreasing densities of lesions
+R9	DefinedAs Arg1:T9 Arg2:T15	
+T16	OtherOutcome 1608 1622	adverse events
+T17	OtherOutcome 1659 1680	serious adverse event
+T18	OutcomeDefinition 2033 2230	(1) anaphylaxis; (2) elevation of ALT or AST to more than 2.5-fold the upper normal limit or elevation of TBIL to more than 1.5-fold the upper normal limit; (3) acute pancreatitis; and (4) diarrhea
+R10	DefinedAs Arg1:T16 Arg2:T18	

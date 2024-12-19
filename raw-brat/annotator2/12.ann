@@ -1,0 +1,4 @@
+T1	PrimaryOutcome 83 93	SOFA Score
+T2	PrimaryOutcome 129 148	all-cause mortality
+T3	TimeFrame 149 162	up to 30 days
+R1	MeasuredAt Arg1:T2 Arg2:T3	

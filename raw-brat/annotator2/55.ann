@@ -1,0 +1,12 @@
+T1	PrimaryOutcome 62 130	efficacy of HCQ with respect to time to negative rRT-PCR assessments
+T2	TimeFrame 131 163	from randomization up to 14 days
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 210 246	proportion of negative viral rRT-PCR
+T4	TimeFrame 247 265	on hospital day 14
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 271 330	resolution of clinical symptoms (time to clinical recovery)
+T6	SecondaryOutcome 336 360	proportion of discharges
+T7	TimeFrame 361 370	by day 14
+R3	MeasuredAt Arg1:T6 Arg2:T7	
+T8	SecondaryOutcome 380 394	mortality rate
+T9	OtherOutcome 396 423	HCQ safety and tolerability

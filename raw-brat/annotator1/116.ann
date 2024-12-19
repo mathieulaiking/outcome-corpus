@@ -1,0 +1,5 @@
+T1	PrimaryOutcome 1590 1611	decrease in mortality
+T2	PrimaryOutcome 1613 1640	duration of hospitalisation
+T3	PrimaryOutcome 1645 1689	need for intensive care unit (ICU) admission
+T4	SecondaryOutcome 1730 1766	improvements in SpO2 and vital signs
+T5	SecondaryOutcome 1782 1814	general wellbeing of the patient

@@ -1,0 +1,9 @@
+ Methods:
+Trial Design and Participants:
+It is an open label, randomized clinical trial conducted at Bahria International Hospital, Lahore, to evaluate the effects of a combination therapy including Dexamethasone and Aprepitant in hospitalized patients with Covid-19. The trial was conducted in accordance with the principles of the
+International Conference on Harmonization Good Clinical Practice guidelines and approved by the
+Bahria International Hospital Ethic Committee and informed consent was obtained from the patients.
+Randomization:
+Case report form included demographics, major comorbidities, medication already being administered. Patients were divided randomly into two arms Control (A) and Interventioanl (B). Both the arms received routine management including Dexamethasone 20mg, but one arm received
+Aprepitant capsule 80mg once a day as an addition for 3-5 days depending on the condition of patient.
+Inclusion criteria was admitted patients above 18 years, both genders, lab confirmed Covid-19 positive based on PCR, more than 72 hours since the appearance of first symptoms. Patients with moderate to critical stages were included. Patients with respiratory diseases other than Covid-19 infection and pregnant females were excluded. Primary endpoint was total in hospital days and the duration of disease. Patients and care givers were not blinded to the allocated treatment. Lab investigations including total blood cell count, total leukocyte count, C-reactive protein, D-dimers, lactate dehydrogenase, oxygen saturation was performed on daily basis to monitor the status of patient.

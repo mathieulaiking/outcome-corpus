@@ -1,0 +1,17 @@
+T1	PrimaryOutcome 39 66	reduction of viral RNA load
+T2	TimeFrame 91 128	at days 3 and 7 after treatment start
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 158 178	clinical progression
+T4	SecondaryOutcome 445 503	time from randomization to complete resolution of symptoms
+T5	TimeFrame 504 538	within the 28-day follow-up period
+R2	MeasuredAt Arg1:T4 Arg2:T5	
+T6	OutcomeDefinition 540 698	Resolution of symptoms was assessed sequentially using a symptoms questionnaire designed to gather information on the type of symptom and last day experienced
+R3	DefinedAs Arg1:T4 Arg2:T6	
+T7	OtherOutcome 816 850	AEs that occurred during treatment
+T8	OtherOutcome 852 856	SAEs
+T9	OtherOutcome 858 895	AEs of special interest (ie, cardiac)
+T10	OtherOutcome 901 937	premature discontinuation of therapy
+T11	OutcomeDefinition 948 1048	classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events
+R4	DefinedAs Arg1:T7 Arg2:T11	
+T12	OutcomeDefinition 222 243	WHO progression scale
+R5	DefinedAs Arg1:T3 Arg2:T12	

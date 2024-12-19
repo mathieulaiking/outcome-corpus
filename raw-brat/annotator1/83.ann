@@ -1,0 +1,22 @@
+T1	TimeFrame 228 235	14 days
+T2	PrimaryOutcome 270 295	time to clinical recovery
+R1	MeasuredAt Arg1:T2 Arg2:T1	
+T3	PrimaryOutcome 304 354	deterioration rate after initiation of medications
+T4	OutcomeDefinition 389 473	clinical symptoms (fever and respiratory symptoms) returning to normal over 48 hours
+R3	DefinedAs Arg1:T2 Arg2:T4	
+T5	OutcomeDefinition 516 665	presence of respiratory distress, respiratory rate ≥ 30 times/minute, oxygen saturation ≤ 93% in the resting state, and oxygenation index ≤ 300 mmHg.
+R4	DefinedAs Arg1:T3 Arg2:T5	
+R2	MeasuredAt Arg1:T3 Arg2:T1	
+T6	SecondaryOutcome 703 722	virologic clearance
+T7	TimeFrame 723 746	during the study period
+T8	OutcomeDefinition 748 833	SARS‐CoV‐2‐negative conversion within 20 days, rate of SARS‐CoV‐2‐negative conversion
+T9	SecondaryOutcome 836 854	clinical follow‐up
+T10	OutcomeDefinition 856 1018	clinical remission rate, time to fever remission, rate of significant improvement in chest CT, percentage of patients requiring oxygen therapy, and discharge rate
+T11	TimeFrame 1019 1033	within 20 days
+T12	SecondaryOutcome 1044 1070	occurrence of side effects
+R5	DefinedAs Arg1:T9 Arg2:T10	
+R6	MeasuredAt Arg1:T9 Arg2:T11	
+R7	MeasuredAt Arg1:T6 Arg2:T7	
+R8	DefinedAs Arg1:T6 Arg2:T8	
+T13	OutcomeDefinition 1732 1815	graded according to the Common Terminology Criteria for Adverse Events, version 5.0
+R9	DefinedAs Arg1:T12 Arg2:T13	

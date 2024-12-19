@@ -1,0 +1,6 @@
+ 
+Outcomes
+
+The primary outcomes were the rate of nucleic acid negativity conversion of SARS-CoV-2 and the negativity conversion time. Nucleic acid conversion rate was defined as the ratio of patients with negativity nucleic acid testing in FNC group to all patients in FNC group at a certain point in the follow-up process. Secondary outcomes were the improvement rate of chest CT images, the time required for the body temperature returning to normal and the improvement in respiratory symptoms and signs. The improvement of chest CT images was defined as a significant reduction in the range of lesions and inflammation. The results for this outcome were double-checked by two radiologists.
+
+Safety was regularly assessed by monitoring vital signs (heart rate, respiratory rate, systolic pressure, diastolic pressure), changes in laboratory values (liver function, renal function), and adverse events (including type, incidence, severity, time and drug correlation, and assessment of severity according to the National Cancer Institute Common Terminology Criteria for Adverse Events [NCI CTCAE], version 5.0).

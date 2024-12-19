@@ -1,0 +1,9 @@
+T1	PrimaryOutcome 667 682	viral clearance
+T2	TimeFrame 683 691	by day 6
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 720 740	change in viral load
+T4	TimeFrame 741 749	by day 6
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	OtherOutcome 782 803	time to defervescence
+T7	UnclearOutcome 1308 1321	hyperuricemia
+T8	OtherOutcome 808 830	resolution of symptoms

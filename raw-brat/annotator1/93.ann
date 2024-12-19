@@ -1,0 +1,71 @@
+T1	PrimaryOutcome 224 244	clinical improvement
+T2	TimeFrame 245 267	7 days after admission
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 302 337	relief of cough, dyspnea, and fever
+T4	PrimaryOutcome 192 219	duration of hospitalization
+R2	MeasuredAt Arg1:T4 Arg2:T2	
+R3	DefinedAs Arg1:T1 Arg2:T3	
+T5	OtherOutcome 339 362	Time to relieving fever
+T6	SecondaryOutcome 432 437	death
+T7	TimeFrame 438 469	during the 30 days of treatment
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+T8	SecondaryOutcome 471 498	duration of hospitalization
+T9	SecondaryOutcome 500 525	changing laboratory tests
+T10	TimeFrame 526 539	during 7 days
+T11	SecondaryOutcome 541 564	changing of CT findings
+T12	TimeFrame 565 578	after 30 days
+R5	MeasuredAt Arg1:T11 Arg2:T12	
+T13	SecondaryOutcome 588 628	need for invasive mechanical ventilation
+T14	OtherOutcome 819 824	Fever
+T15	OtherOutcome 826 831	cough
+T16	OtherOutcome 833 840	dyspnea
+T17	OtherOutcome 842 861	nausea and vomiting
+T18	OtherOutcome 863 871	diarrhea
+T19	OtherOutcome 873 893	fatigue and weakness
+T20	OtherOutcome 895 911	loss of appetite
+T21	OtherOutcome 917 922	taste
+T22	OtherOutcome 979 1010	saturation of peripheral oxygen
+T23	OtherOutcome 1012 1036	C-reactive protein (CRP)
+T24	OtherOutcome 1038 1069	complete blood cell count (CBC)
+T25	OtherOutcome 1071 1107	erythrocyte sedimentation rate (ESR)
+T26	OtherOutcome 1109 1137	aspartate transaminase (AST)
+T27	OtherOutcome 1139 1169	alanine aminotransferase (ALT)
+T28	OtherOutcome 1171 1199	white blood cell count (WBC)
+T29	OtherOutcome 1201 1232	lymphocyte and neutrophil count
+T30	OtherOutcome 1234 1261	neutrophil lymphocyte ratio
+T31	OtherOutcome 1263 1278	total bilirubin
+T32	OtherOutcome 1280 1294	blood Na and K
+T33	OtherOutcome 1296 1306	creatinine
+T34	OtherOutcome 1311 1344	thyroid stimulating hormone (TSH)
+T35	TimeFrame 1359 1405	at the first day of admission and 7 days after
+R6	MeasuredAt Arg1:T22 Arg2:T35	
+R7	MeasuredAt Arg1:T23 Arg2:T35	
+R8	MeasuredAt Arg1:T24 Arg2:T35	
+R9	MeasuredAt Arg1:T25 Arg2:T35	
+R10	MeasuredAt Arg1:T26 Arg2:T35	
+R11	MeasuredAt Arg1:T27 Arg2:T35	
+R12	MeasuredAt Arg1:T28 Arg2:T35	
+R13	MeasuredAt Arg1:T29 Arg2:T35	
+R14	MeasuredAt Arg1:T30 Arg2:T35	
+R15	MeasuredAt Arg1:T31 Arg2:T35	
+R16	MeasuredAt Arg1:T32 Arg2:T35	
+R17	MeasuredAt Arg1:T33 Arg2:T35	
+R18	MeasuredAt Arg1:T34 Arg2:T35	
+T36	TimeFrame 944 973	at the first day of admission
+R19	MeasuredAt Arg1:T14 Arg2:T36	
+R20	MeasuredAt Arg1:T15 Arg2:T36	
+R21	MeasuredAt Arg1:T16 Arg2:T36	
+R22	MeasuredAt Arg1:T17 Arg2:T36	
+R23	MeasuredAt Arg1:T18 Arg2:T36	
+R24	MeasuredAt Arg1:T19 Arg2:T36	
+R25	MeasuredAt Arg1:T20 Arg2:T36	
+R26	MeasuredAt Arg1:T21 Arg2:T36	
+R27	MeasuredAt Arg1:T9 Arg2:T10	
+T37	OtherOutcome 1411 1418	CT scan
+T38	OtherOutcome 1423 1434	chest X-ray
+T39	TimeFrame 1446 1493	at the first day of admission and 30 days after
+R28	MeasuredAt Arg1:T37 Arg2:T39	
+R29	MeasuredAt Arg1:T38 Arg2:T39	
+T40	TimeFrame 1518 1556	at admission and the time of discharge
+T41	OtherOutcome 1499 1507	PCR test
+R30	MeasuredAt Arg1:T41 Arg2:T40	

@@ -1,0 +1,12 @@
+T1	PrimaryOutcome 90 127	Time to SARS-CoV-2 RNA negativization
+T2	OutcomeDefinition 128 173	(absence of the virus according to the RT-PCR
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 283 363	percentage of patients negative to SARS-CoV-2 by RT-PCR in throat exudate tissue
+T4	TimeFrame 375 402	at 48, 72, 96 and 120 hours
+R2	DefinedAs Arg1:T1 Arg2:T3	
+R3	MeasuredAt Arg1:T1 Arg2:T4	
+T5	PrimaryOutcome 573 592	clinical evaluation
+T6	OutcomeDefinition 608 646	time to progression to severe COVID-19
+T7	OutcomeDefinition 676 783	percentage of patients who became severely ill after the end of the antiviral treatment under investigation
+R4	DefinedAs Arg1:T5 Arg2:T6	
+R5	DefinedAs Arg1:T5 Arg2:T7	

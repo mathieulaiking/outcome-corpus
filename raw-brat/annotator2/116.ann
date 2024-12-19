@@ -1,0 +1,24 @@
+T1	OtherOutcome 230 250	complete blood count
+T2	OtherOutcome 255 291	erythrocyte sedimentation rate (ESR)
+T3	OtherOutcome 664 695	risk for ventricular arrhythmia
+T4	OutcomeDefinition 741 861	calculated based on the proposed guideline by the ACC [23], and patients with a score of ≥7 were excluded from the study
+R1	DefinedAs Arg1:T3 Arg2:T4	
+T5	OtherOutcome 912 933	core body temperature
+T6	OtherOutcome 935 951	respiratory rate
+T7	OtherOutcome 953 963	heart rate
+T8	OtherOutcome 968 1013	peripheral capillary oxygen saturation (SpO2)
+T9	TimeFrame 890 908	daily measurements
+R2	MeasuredAt Arg1:T5 Arg2:T9	
+R3	MeasuredAt Arg1:T6 Arg2:T9	
+R4	MeasuredAt Arg1:T7 Arg2:T9	
+R5	MeasuredAt Arg1:T8 Arg2:T9	
+T10	OtherOutcome 1021 1044	electrocardiogram (ECG)
+T11	TimeFrame 1015 1020	Daily
+R6	MeasuredAt Arg1:T10 Arg2:T11	
+T12	OutcomeDefinition 1093 1157	evolution of heart rate-corrected QT (QTc) interval prolongation
+R7	DefinedAs Arg1:T10 Arg2:T12	
+T13	PrimaryOutcome 1590 1611	decrease in mortality
+T14	PrimaryOutcome 1613 1640	duration of hospitalisation
+T15	PrimaryOutcome 1645 1689	need for intensive care unit (ICU) admission
+T16	SecondaryOutcome 1730 1766	improvements in SpO2 and vital signs
+T17	SecondaryOutcome 1782 1814	general wellbeing of the patient

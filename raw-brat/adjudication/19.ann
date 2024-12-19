@@ -1,0 +1,35 @@
+T1	PrimaryOutcome 39 55	time to recovery
+T2	OutcomeDefinition 68 215	the first day, during the 28 days after enrollment, on which a patient met the criteria for category 1, 2, or 3 on the eight-category ordinal scale
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 1004 1019	clinical status
+T4	TimeFrame 1020 1029	at day 15
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	OutcomeDefinition 1031 1063	as assessed on the ordinal scale
+R3	DefinedAs Arg1:T3 Arg2:T5	
+T6	SecondaryOutcome 1103 1192	time to improvement of one category and of two categories from the baseline ordinal score
+T7	SecondaryOutcome 1194 1242	clinical status as assessed on the ordinal scale
+T8	TimeFrame 1243 1278	at days 3, 5, 8, 11, 15, 22, and 29
+R4	MeasuredAt Arg1:T7 Arg2:T8	
+T9	SecondaryOutcome 1280 1322	mean change in status on the ordinal scale
+T10	TimeFrame 1323 1369	from day 1 to days 3, 5, 8, 11, 15, 22, and 29
+R5	MeasuredAt Arg1:T9 Arg2:T10	
+T11	TimeFrame 2102 2118	during the trial
+T12	SecondaryOutcome 1487 1529	change in the National Early Warning Score
+T13	TimeFrame 1530 1576	from day 1 to days 3, 5, 8, 11, 15, 22, and 29
+R6	MeasuredAt Arg1:T12 Arg2:T13	
+T14	SecondaryOutcome 1578 1706	number of days with supplemental oxygen, with noninvasive ventilation or high-flow oxygen, and with invasive ventilation or ECMO
+T15	TimeFrame 1707 1719	up to day 29
+R7	MeasuredAt Arg1:T14 Arg2:T15	
+T16	SecondaryOutcome 1760 1889	the incidence and duration of new oxygen use, of noninvasive ventilation or high-flow oxygen, and of invasive ventilation or ECMO
+T17	SecondaryOutcome 1891 1924	number of days of hospitalization
+T18	TimeFrame 1925 1937	up to day 29
+R8	MeasuredAt Arg1:T17 Arg2:T18	
+T19	SecondaryOutcome 1943 1952	mortality
+T20	TimeFrame 1953 1987	at 14 and 28 days after enrollment
+R9	MeasuredAt Arg1:T19 Arg2:T20	
+T21	SecondaryOutcome 2032 2060	grade 3 and 4 adverse events
+T22	SecondaryOutcome 2065 2087	serious adverse events
+T23	SecondaryOutcome 2120 2172	discontinuation or temporary suspension of infusions
+T24	SecondaryOutcome 2178 2225	changes in assessed laboratory values over time
+R10	MeasuredAt Arg1:T21 Arg2:T11	
+R11	MeasuredAt Arg1:T22 Arg2:T11	

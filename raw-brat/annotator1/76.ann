@@ -1,0 +1,20 @@
+T1	PrimaryOutcome 9 37	Time to clinical improvement
+T2	OutcomeDefinition 91 211	improvement was defined as improvement of at least two points from the baseline status on the six-category ordinal scale
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 223 516	scale contains the subsequent categories: (1) death (2) hospital admission requiring invasive mechanical ventilation (3) hospital admission, requiring non-invasive positive pressure ventilation (4) hospital admission, requiring oxygen (5) hospital admission, not requiring oxygen (6) discharge
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 542 569	clinical status of patients
+T5	TimeFrame 570 589	at day 7, 14 and 28
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+T6	SecondaryOutcome 591 625	ICU admission and intubation rates
+T7	SecondaryOutcome 627 665	length of hospitalization and ICU stay
+T8	SecondaryOutcome 678 687	mortality
+T9	TimeFrame 671 677	28-day
+R4	MeasuredAt Arg1:T8 Arg2:T9	
+T10	OtherOutcome 689 701	Side effects
+T11	OtherOutcome 735 749	adverse events
+T12	OutcomeDefinition 868 1006	according to the common terminology criteria for adverse events (CTCAE), National Institutes of Health and National Cancer Institute, 2017
+R5	DefinedAs Arg1:T11 Arg2:T12	
+T13	OtherOutcome 1013 1034	serious complications
+T14	OutcomeDefinition 1069 1214	such as acute respiratory distress syndrome (ARDS), nosocomial infections, septic shock, acute kidney injury (AKI) and acute hepatic injury (AHI)
+R6	DefinedAs Arg1:T13 Arg2:T14	

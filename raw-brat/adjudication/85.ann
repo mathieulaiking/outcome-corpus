@@ -1,0 +1,6 @@
+T1	PrimaryOutcome 112 126	mortality rate
+T2	PrimaryOutcome 128 148	blood O2 saturation,
+T3	PrimaryOutcome 153 185	need for further oxygen therapy.
+T4	OtherOutcome 344 372	Creatine phosphokinase (CPK)
+T5	OtherOutcome 374 401	lactate dehydrogenase (LDH)
+T6	OtherOutcome 407 430	serum creatinine (SrCr)

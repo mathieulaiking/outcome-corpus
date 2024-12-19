@@ -1,0 +1,9 @@
+T1	PrimaryOutcome 934 1046	overall mortality until discharge from the hospital or a maximum of 60 days after admission whichever came first
+T2	SecondaryOutcome 1105 1167	improvement on the 8-point WHO COVID-19 disease severity scale
+T3	TimeFrame 1168 1192	from inclusion to day 15
+R1	MeasuredAt Arg1:T2 Arg2:T3	
+T4	SecondaryOutcome 1194 1217	hospital length of stay
+T5	SecondaryOutcome 1222 1228	safety
+T6	OtherOutcome 691 767	clinical status with the ordinal 8-point WHO COVID-19 disease severity scale
+T7	TimeFrame 768 788	on days 1, 15 and 30
+R2	MeasuredAt Arg1:T6 Arg2:T7	

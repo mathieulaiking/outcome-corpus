@@ -1,0 +1,13 @@
+T1	PrimaryOutcome 55 78	organ support–free days
+T2	OutcomeDefinition 80 150	days alive and free of ICU-based respiratory or cardiovascular support
+T3	TimeFrame 152 166	within 21 days
+R1	DefinedAs Arg1:T1 Arg2:T2	
+R2	MeasuredAt Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 1309 1330	in-hospital mortality
+T5	SecondaryOutcome 1332 1363	ICU and hospital length of stay
+T6	SecondaryOutcome 1365 1394	respiratory support–free days
+T7	SecondaryOutcome 1396 1434	cardiovascular organ support–free days
+T8	SecondaryOutcome 1459 1597	progression to invasive mechanical ventilation, extracorporeal membrane oxygenation (ECMO) or death among those not ventilated at baseline
+T9	SecondaryOutcome 1607 1624	WHO ordinal scale
+T10	TimeFrame 1716 1731	at day 14.19,20
+R3	MeasuredAt Arg1:T9 Arg2:T10	

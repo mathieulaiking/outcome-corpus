@@ -1,0 +1,21 @@
+T1	PrimaryOutcome 48 76	time to clinical improvement
+T2	OutcomeDefinition 93 275	time from randomization to an improvement of two points (from the status at randomization) on a seven-category ordinal scale or live discharge from the hospital, whichever came first
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	OtherOutcome 1058 1073	clinical status
+T4	OutcomeDefinition 1077 1123	assessed with the seven-category ordinal scale
+T5	TimeFrame 1124 1140	on days 7 and 14
+T6	OtherOutcome 1142 1151	mortality
+T7	TimeFrame 1152 1161	at day 28
+T8	OtherOutcome 1167 1201	duration of mechanical ventilation
+T9	OtherOutcome 1207 1247	duration of hospitalization in survivors
+T10	OtherOutcome 1257 1306	time (in days) from treatment initiation to death
+R2	DefinedAs Arg1:T3 Arg2:T4	
+R3	MeasuredAt Arg1:T3 Arg2:T5	
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+T11	OtherOutcome 1340 1386	proportions with viral RNA detection over time
+T12	OtherOutcome 1391 1433	viral RNA titer area-under-the-curve (AUC)
+T13	OtherOutcome 1474 1488	adverse events
+T14	OtherOutcome 1521 1543	serious adverse events
+T15	OtherOutcome 1549 1587	premature discontinuation of treatment
+T16	OutcomeDefinition 1609 1722	classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 4.0
+R5	DefinedAs Arg1:T13 Arg2:T16	

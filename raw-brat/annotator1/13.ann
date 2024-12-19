@@ -1,0 +1,4 @@
+T1	PrimaryOutcome 4000 4027	SARS-CoV-2  clearance rates
+T2	TimeFrame 4058 4091	on day six of antiviral treatment
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 4124 4159	median time to SARS-CoV-2 clearance

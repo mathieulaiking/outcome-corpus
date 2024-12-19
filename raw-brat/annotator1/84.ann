@@ -1,0 +1,7 @@
+T1	OtherOutcome 1418 1557	lack of improvement of dyspnea, fever, and hypoxemia (satO2 less than 90%), as well as the need for oxygenation to maintain satO2 above 90%
+T2	TimeFrame 1558 1592	after 48 h of commencing treatment
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OtherOutcome 1806 1821	mortality rates
+T4	OtherOutcome 1772 1789	clinical outcomes
+T5	OtherOutcome 1916 1952	involvement of lungs in lung CT scan
+T6	OtherOutcome 2035 2040	satO2

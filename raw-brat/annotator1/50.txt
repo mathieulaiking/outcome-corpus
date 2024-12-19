@@ -1,0 +1,15 @@
+Measurements:
+
+Symptoms and severity at baseline and then at days 3, 5, 10, and 14 using a 10-point visual analogue scale. The primary end point was change in overall symptom severity over 14 days.
+
+Study End Points
+
+The initial primary outcome was an ordinal outcome by day 14 of not hospitalized, hospitalized, or intensive care unit stay or death. Secondary end points were symptom severity at day 5 and day 14 by 10-point visual analogue scale, nominal incidence of all hospitalizations and deaths, and incidence of study medicine withdrawal.
+
+Changes in End Point and Sample Sizes
+
+Before the first interim analysis on 24 April 2020, it became apparent that the pooled event rate of hospitalization or death was substantially lower than our initial 10% expectation (original sample size calculations as described in Statistical Analysis section). Without unblinding of treatment allocation or analysis of the data, the principal investigator proposed to the data and safety monitoring board (DSMB) that we modify the primary end point to the change in overall symptom severity over 14 days as longitudinally measured on a 10-point visual analogue scale. The DSMB approved the change on 24 April 2020. The change was necessary because the low event rate of hospitalizations or deaths in the trial would have required increasing the sample size to 6000 participants, which was not attainable. With enrollment of at least 200 participants per group, we determined that the revised trial would have 90% power (with a 2-sided α level of 0.05) to detect a statistically significant difference between the groups for a change in symptom severity score as small as 0.25 point on the 10-point visual analogue scale. The trial halted at the second DSMB meeting on 6 May 2020, when the DSMB determined that sufficient statistical power had been achieved to evaluate the primary outcome.
+
+Outcomes and Follow-up
+
+We collected self-reported survey data using the Research Electronic Data Capture (REDCap) system (13). We e-mailed participants follow-up surveys on days 1 (medication start date), 3, 5 (medication stop date), 10, and 14 to assess study medication adherence, adverse effects, presence and severity of COVID-19 symptoms, COVID-19 test results, and hospitalization status. If participants were hospitalized within 14 days, we continued follow-up past study completion to assess outcomes. We assessed symptom severity on a 10-point visual analogue scale, where 0 indicated no symptoms and 10 indicated severe symptoms (Supplement). Medication-related adverse events were collected with directed questioning on the most common adverse effects and an open-ended free-text field. For participants who did not respond to follow-up surveys, investigators used text messages, e-mails, or telephone calls to ascertain outcomes from them or their designated third-party contacts. If this was unsuccessful, investigators searched the internet for obituaries or other evidence of vital status.

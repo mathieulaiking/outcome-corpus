@@ -1,0 +1,24 @@
+T1	UnclearOutcome 375 385	heart rate
+T2	UnclearOutcome 387 403	body temperature
+T3	UnclearOutcome 405 419	blood pressure
+T4	UnclearOutcome 421 444	oxygen saturation (SO2)
+T5	UnclearOutcome 451 458	dyspnea
+T6	UnclearOutcome 460 465	cough
+T7	UnclearOutcome 467 509	gastrointestinal involvement (GI) symptoms
+T8	UnclearOutcome 511 518	myalgia
+T9	UnclearOutcome 520 530	chest pain
+T10	UnclearOutcome 536 546	BORG score
+T11	UnclearOutcome 637 758	need on oxygen therapy (nasal cannula, mask oxygen, reserve mask, noninvasive ventilation (NIV), and invasive ventilation
+T12	UnclearOutcome 845 861	CT scan findings
+T13	UnclearOutcome 1001 1015	mortality rate
+T14	UnclearOutcome 1021 1069	duration of hospitalization in improved patients
+T15	UnclearOutcome 1079 1135	time (in days) from the initiation of treatment to death
+T16	UnclearOutcome 1165 1188	Laboratory test results
+T17	OutcomeDefinition 1208 1502	blood count (CBC), C-reactive protein (CRP), erythrocyte sedimentation rate (ESR), vein blood gas analysis (VBG) including PH, Bicarbonate (HCO3), and partial pressure of carbon dioxide (PCO2), IL-6, Ferritin, Troponin, D-dimer, lactic acid dehydrogenase (LDH), and creatine phosphokinase (CPK)
+R1	DefinedAs Arg1:T16 Arg2:T17	
+T18	UnclearOutcome 1589 1628	Clinical signs of the improved patients
+T19	OutcomeDefinition 1630 1695	including cough, GI symptoms, myalgia, chest pain, and BORG score
+R2	DefinedAs Arg1:T18 Arg2:T19	
+T20	PrimaryOutcome 1897 1987	time of clinical improvement and discharge from the hospital or death whichever came first
+T21	OutcomeDefinition 1989 2287	Hospital discharge was determined according to the patients clinical and laboratory findings. Improvement was defined as BORG score>3, improved dyspnea, stopped fever for 72 hours, SO2> 93%, tolerated oral regimen (PO), normal urinary output and reduced CRP level without any treatment side effects
+R3	DefinedAs Arg1:T20 Arg2:T21	

@@ -1,0 +1,21 @@
+T1	PrimaryOutcome 57 155	rate of decline in SARS-CoV-2 viral load in oropharyngeal samples as assessed by RT-PCR in samples
+T2	TimeFrame 166 266	at baseline, 48 and 96 hours after randomization and administration of drug for the intervention arm
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 296 311	change in NEWS2
+T4	TimeFrame 312 343	at 96 hours after randomisation
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 345 377	admission to intensive care unit
+T6	SecondaryOutcome 379 388	mortality
+T7	TimeFrame 390 424	in-hospital, and at 30 and 90 days
+R3	MeasuredAt Arg1:T6 Arg2:T7	
+T8	SecondaryOutcome 427 457	duration of hospital admission
+T9	SecondaryOutcome 459 501	clinical status on a 7-point ordinal scale
+T10	TimeFrame 502 529	14 days after randomization
+R4	MeasuredAt Arg1:T9 Arg2:T10	
+T11	OutcomeDefinition 531 926	[1] Death [2] Hospitalised, on invasive mechanical ventilation or extracorporeal membrane oxygenation [3] Hospitalised, on non-invasive ventilation or high flow oxygen devices [4] Hospitalized, requiring supplemental oxygen [5] Hospitalised, not requiring supplemental oxygen [6] Not hospitalized, but unable to resume normal activities [7] Not hospitalised, with resumption of normal activities
+R5	DefinedAs Arg1:T9 Arg2:T11	
+T12	SecondaryOutcome 933 974	improvement in protein biomarker profiles
+T13	OutcomeDefinition 976 1120	C-reactive protein, markers of renal and hepatic injury, and established cardiac biomarkers like cardiac troponin and B-type natriuretic peptide
+R6	DefinedAs Arg1:T12 Arg2:T13	
+T14	TimeFrame 1122 1153	at 96 hours after randomization
+R7	MeasuredAt Arg1:T12 Arg2:T14	

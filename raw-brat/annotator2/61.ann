@@ -1,0 +1,4 @@
+T1	OtherOutcome 12 44	All AEs, serious and non-serious
+T2	PrimaryOutcome 228 367	relative change (%) from baseline (day 1 prior to study drug administration at ± 1h of randomization) in PaO2/FiO2 ratio in supine position
+T3	TimeFrame 368 379	at day five
+R1	MeasuredAt Arg1:T2 Arg2:T3	

@@ -1,0 +1,9 @@
+T1	PrimaryOutcome 40 187	timing to achieve viral RNA negative conversion for SARS-CoV-2 in all three specimens, including nasopharyngeal swabs, throat swabs and stool swabs
+T2	SecondaryOutcome 365 399	timing when CT imaging improvement
+T3	OutcomeDefinition 424 481	mainly based on the size and density reduction of lesions
+R1	DefinedAs Arg1:T2 Arg2:T3	
+T4	OtherOutcome 504 535	adverse events during treatment
+T5	OtherOutcome 537 558	severe adverse events
+T6	OtherOutcome 564 602	premature discontinuation of treatment
+T7	OutcomeDefinition 624 724	classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events
+R2	DefinedAs Arg1:T4 Arg2:T7	

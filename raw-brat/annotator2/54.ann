@@ -1,0 +1,29 @@
+T1	PrimaryOutcome 270 295	elimination of SARS-CoV-2
+T2	TimeFrame 296 305	by Day 10
+T3	OutcomeDefinition 307 373	defined as two negative PCR tests with at least a 24-hour interval
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	OtherOutcome 551 568	daily vital signs
+T5	OtherOutcome 570 632	SpO2 and WHO Ordinal Scale for Clinical Improvement (WHO-OSCI)
+T6	OtherOutcome 634 662	PCR for SARS-CoV-2 detection
+T7	TimeFrame 724 745	on Days 5, 10, and 15
+R3	MeasuredAt Arg1:T6 Arg2:T7	
+T8	OtherOutcome 747 782	chest computed tomography (CT) scan
+T9	TimeFrame 783 808	at baseline and on Day 15
+R4	MeasuredAt Arg1:T8 Arg2:T9	
+T10	OtherOutcome 810 830	physical examination
+T11	OtherOutcome 832 852	complete blood count
+T12	OtherOutcome 854 866	biochemistry
+T13	OtherOutcome 868 892	C-reactive protein (CRP)
+T14	OtherOutcome 894 904	urinalysis
+T15	OtherOutcome 910 927	electrocardiogram
+T16	TimeFrame 928 960	at baseline and on Days 5 and 15
+R5	MeasuredAt Arg1:T15 Arg2:T16	
+T17	SecondaryOutcome 1574 1597	rate of viral clearance
+T18	TimeFrame 1598 1606	by Day 5
+R6	MeasuredAt Arg1:T17 Arg2:T18	
+T19	SecondaryOutcome 1608 1673	time to normalization of clinical symptoms (ie, body temperature)
+T20	SecondaryOutcome 1675 1693	changes on CT scan
+T21	TimeFrame 1694 1703	by Day 15
+R7	MeasuredAt Arg1:T20 Arg2:T21	
+T22	SecondaryOutcome 1709 1775	incidence and severity of adverse events related to the study drug

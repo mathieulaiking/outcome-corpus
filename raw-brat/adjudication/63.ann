@@ -1,0 +1,14 @@
+T1	PrimaryOutcome 39 74	time to clinical improvement (TTCI)
+T2	OutcomeDefinition 78 777	defined by the Cap-China Network 57, which was employed in the LOTUS China trial 11 and recommended by the World Health Organization. TTCI refers to the time from randomization to an improvement of two points on the seven-category ordinal scale as follows 58 (or discharge alive from the hospital): 1, not hospitalized with resumption of normal activities; 2, not hospitalized, but unable to resume normal activities; 3, hospitalized, not requiring supplemental oxygen; 4, hospitalized, requiring supplemental oxygen; 5, hospitalized, requiring nasal high-flow oxygen therapy, noninvasive mechanical ventilation; 6, hospitalized, requiring ECMO, invasive mechanical ventilation, or both; or 7, death
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 819 865	percentage of patients on seven-category scale
+T4	TimeFrame 866 886	on days 7, 14 and 21
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 888 918	time on mechanical ventilation
+T6	SecondaryOutcome 920 956	time of hospitalization of survivors
+T7	SecondaryOutcome 958 980	time on oxygen support
+T8	SecondaryOutcome 982 1027	time from randomization to hospital discharge
+T9	SecondaryOutcome 1029 1061	time from randomization to death
+T10	SecondaryOutcome 1067 1101	frequency of severe adverse events
+T11	OutcomeDefinition 1116 1148	National Cancer Institute Common
+R3	DefinedAs Arg1:T10 Arg2:T11	

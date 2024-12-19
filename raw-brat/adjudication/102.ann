@@ -1,0 +1,45 @@
+T2	SecondaryOutcome 151 181	days of mechanical ventilation
+T3	SecondaryOutcome 183 221	days of high-flow nasal cannula (HFNC)
+T4	SecondaryOutcome 223 249	days of oxygen requirement
+T5	SecondaryOutcome 251 306	time to respiratory failure development (PaO2/FiO2<200)
+T6	SecondaryOutcome 312 366	severity of multiple organ dysfunction (by SOFA score)
+T7	TimeFrame 367 381	at day 3 and 7
+T8	SecondaryOutcome 383 421	days in ICU or intermediate care unit,
+T9	SecondaryOutcome 422 445	hospital length of stay
+T1	PrimaryOutcome 50 119	mechanical ventilation, hospitalization >14 days or in-hospital death
+T10	SecondaryOutcome 451 460	mortality
+T11	TimeFrame 461 471	at 30 days
+R1	MeasuredAt Arg1:T6 Arg2:T7	
+R2	MeasuredAt Arg1:T10 Arg2:T11	
+T12	SecondaryOutcome 755 810	comparison of infiltrates progression on chest CT scans
+T13	TimeFrame 811 834	on enrollment and day 5
+R3	MeasuredAt Arg1:T12 Arg2:T13	
+T14	UnclearOutcome 1081 1118	neutralizing antibodies (NAbs) titers
+T15	UnclearOutcome 1124 1150	anti-SARS-CoV-2 IgG titers
+T16	TimeFrame 1311 1326	days 0, 3 and 7
+R4	MeasuredAt Arg1:T14 Arg2:T16	
+R5	MeasuredAt Arg1:T15 Arg2:T16	
+R6	MeasuredAt Arg1:T2 Arg2:T7	
+R7	MeasuredAt Arg1:T3 Arg2:T7	
+R8	MeasuredAt Arg1:T4 Arg2:T7	
+R9	MeasuredAt Arg1:T5 Arg2:T7	
+R10	MeasuredAt Arg1:T8 Arg2:T11	
+R11	MeasuredAt Arg1:T9 Arg2:T11	
+T17	SecondaryOutcome 524 546	total lymphocyte count
+T18	SecondaryOutcome 548 572	C-reactive protein (CRP)
+T19	SecondaryOutcome 574 587	procalcitonin
+T20	SecondaryOutcome 589 592	LDH
+T21	SecondaryOutcome 594 601	D-dimer
+T22	SecondaryOutcome 603 611	ferritin
+T23	SecondaryOutcome 616 620	IL-6
+T24	TimeFrame 637 655	on days 0, 3 and 7
+T25	SecondaryOutcome 661 678	SARS-CoV-2 RT-PCR
+T26	TimeFrame 702 717	on days 3 and 7
+R12	MeasuredAt Arg1:T17 Arg2:T24	
+R13	MeasuredAt Arg1:T18 Arg2:T24	
+R14	MeasuredAt Arg1:T19 Arg2:T24	
+R15	MeasuredAt Arg1:T20 Arg2:T24	
+R16	MeasuredAt Arg1:T21 Arg2:T24	
+R17	MeasuredAt Arg1:T22 Arg2:T24	
+R18	MeasuredAt Arg1:T23 Arg2:T24	
+R19	MeasuredAt Arg1:T25 Arg2:T26	

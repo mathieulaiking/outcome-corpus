@@ -1,0 +1,3 @@
+ Outcome Measures
+
+The primary endpoint was the duration of viral shedding, which was defined as the time from randomization to the first negative nucleic acid test of 5 consecutive RT-PCR results. Other clinical outcomes included clinical status (ie, progressive rate to severe illness), syndromes, peripheral blood cells, and biochemical parameters, C-reactive protein and inflammatory cytokines, and length of hospital stay. Safety outcomes included adverse events (AEs) that occurred during treatment, serious AEs, and premature discontinuation of treatment.

@@ -1,0 +1,21 @@
+T1	PrimaryOutcome 49 77	time to clinical improvement
+T2	TimeFrame 78 92	within 28 days
+T3	OutcomeDefinition 105 232	patient discharged alive or reduction of 2 points on a 6-point disease severity scale (ranging from 1 [discharge] to 6 [death])
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 262 278	28-day mortality
+T5	SecondaryOutcome 280 297	time to discharge
+T6	SecondaryOutcome 307 405	rate of viral polymerase chain reaction (PCR) results turned from positive at baseline to negative
+T7	TimeFrame 406 423	at up to 72 hours
+R3	MeasuredAt Arg1:T6 Arg2:T7	
+T8	OutcomeDefinition 1110 1344	body temperature returned to normal for longer than 3 days, respiratory symptoms significantly improved without the need for oxygen support, and 2 consecutive negative PCR test results from nasopharyngeal swabs at least 24 hours apart
+R4	DefinedAs Arg1:T5 Arg2:T8	
+T9	SecondaryOutcome 1396 1412	28-day mortality
+T10	SecondaryOutcome 1474 1501	duration of hospitalization
+T11	SecondaryOutcome 1633 1735	conversion of nasopharyngeal swab viral PCR results from positive at baseline to negative at follow-up
+T12	TimeFrame 1745 1768	at 24, 48, and 72 hours
+R5	MeasuredAt Arg1:T11 Arg2:T12	
+T13	OutcomeDefinition 1414 1468	including analysis of time from randomization to death
+R6	DefinedAs Arg1:T9 Arg2:T13	
+T14	OutcomeDefinition 1503 1623	including analyses of time from randomization to discharge, time from admission to discharge, and 28-day discharge rates
+R7	DefinedAs Arg1:T10 Arg2:T14	

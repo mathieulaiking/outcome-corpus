@@ -1,0 +1,5 @@
+T1	PrimaryOutcome 48 108	necessity for intubation and invasive mechanical ventilation
+T2	SecondaryOutcome 134 173	time of invasive mechanical ventilation
+T3	SecondaryOutcome 175 195	admission to the ICU
+T4	SecondaryOutcome 197 215	length of ICU stay
+T5	SecondaryOutcome 221 230	mortality

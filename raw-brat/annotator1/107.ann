@@ -1,0 +1,20 @@
+T1	PrimaryOutcome 75 84	mortality
+T2	TimeFrame 68 74	28-day
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	PrimaryOutcome 277 292	admitted to ICU
+T5	PrimaryOutcome 555 577	mechanical ventilation
+T7	TimeFrame 1023 1039	within two weeks
+T8	SecondaryOutcome 1276 1285	lassitude
+T9	SecondaryOutcome 1420 1425	fever
+T10	SecondaryOutcome 1427 1435	headache
+T11	SecondaryOutcome 1441 1466	gastrointestinal symptoms
+T12	SecondaryOutcome 1554 1566	level of LDH
+T13	SecondaryOutcome 1608 1611	NLR
+T14	SecondaryOutcome 1651 1654	CRP
+T15	TimeFrame 1682 1698	within two weeks
+R2	MeasuredAt Arg1:T14 Arg2:T15	
+R3	MeasuredAt Arg1:T13 Arg2:T15	
+R4	MeasuredAt Arg1:T12 Arg2:T15	
+T16	SecondaryOutcome 1784 1848	length of stay in the hospital [from randomization to discharge]
+T4	SecondaryOutcome 952 1022	Improvement of cardinal respiratory symptoms such as cough and dyspnea
+R5	MeasuredAt Arg1:T4 Arg2:T7	

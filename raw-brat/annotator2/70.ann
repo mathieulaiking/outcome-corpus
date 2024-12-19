@@ -1,0 +1,19 @@
+T1	PrimaryOutcome 529 543	IMV- free days
+T2	TimeFrame 544 554	in 28 days
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 594 610	28-day mortality
+T4	SecondaryOutcome 612 627	organ functions
+T5	SecondaryOutcome 632 795	inflammatory parameters, including white blood cell counts, neutrophil counts, lymphocyte counts, procalcitonin, interleukin-6 (IL-6), and C-reactive protein (CRP)
+T6	SecondaryOutcome 866 882	vasopressor days
+T7	SecondaryOutcome 884 908	respiratory support days
+T8	SecondaryOutcome 910 957	invasive mechanical ventilation (IMV)-free days
+T9	SecondaryOutcome 959 993	patient condition improvement rate
+T10	SecondaryOutcome 995 1031	patient condition deterioration rate
+T11	SecondaryOutcome 1033 1064	length of ICU and hospital stay
+T12	SecondaryOutcome 1066 1095	ICU and in-hospital mortality
+T13	OutcomeDefinition 1180 1261	defined as the number of days a patient was extubated after recruitment to day 28
+R2	DefinedAs Arg1:T8 Arg2:T13	
+T14	OutcomeDefinition 1367 1483	defined as the patient requiring HFNC or NIV on day 1 and requiring ECMO or IMV, or dying, after 7 days of treatment
+R3	DefinedAs Arg1:T10 Arg2:T14	
+T15	OutcomeDefinition 1528 1662	defined as the patient requiring ECMO or IMV on day 1 and switching to HFNC, NIV, or discharged from the ICU after 7 days of treatment
+R4	DefinedAs Arg1:T9 Arg2:T15	

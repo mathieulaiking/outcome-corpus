@@ -1,0 +1,24 @@
+T1	PrimaryOutcome 10 49	Reductions of C reactive protein levels
+T2	TimeFrame 50 84	at day 5 and 8 after randomization
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 145 161	admission to ICU
+T4	TimeFrame 162 202	within 15 and 30 days from randomization
+R2	MeasuredAt Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 204 240	occurrence of mechanical ventilation
+T6	TimeFrame 241 281	within 15 and 30 days from randomization
+R3	MeasuredAt Arg1:T5 Arg2:T6	
+T7	SecondaryOutcome 283 288	death
+T8	TimeFrame 289 329	within 15 and 30 days from randomization
+R4	MeasuredAt Arg1:T7 Arg2:T8	
+T9	SecondaryOutcome 331 404	composite occurrence of admission to ICU, mechanical ventilation or death
+T10	TimeFrame 405 445	within 15 and 30 days from randomization
+R5	MeasuredAt Arg1:T9 Arg2:T10	
+T11	SecondaryOutcome 447 499	proportion of patients requiring supplemental oxygen
+T12	TimeFrame 500 509	at day 15
+R6	MeasuredAt Arg1:T11 Arg2:T12	
+T13	SecondaryOutcome 582 618	time from randomization to discharge
+T14	TimeFrame 619 650	up to day 15 from randomization
+R7	MeasuredAt Arg1:T13 Arg2:T14	
+T15	SecondaryOutcome 656 719	significative differences in serum lactate dehydrogenase levels
+T16	TimeFrame 720 734	at day 5 and 8
+R8	MeasuredAt Arg1:T15 Arg2:T16	

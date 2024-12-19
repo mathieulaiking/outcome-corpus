@@ -1,0 +1,19 @@
+T1	PrimaryOutcome 35 52	28-day mortality.
+T2	SecondaryOutcome 82 97	early mortality
+T3	TimeFrame 99 112	Days 7 and 14
+R1	MeasuredAt Arg1:T2 Arg2:T3	
+T4	SecondaryOutcome 119 150	need for orotracheal intubation
+T5	TimeFrame 151 159	by Day 7
+R2	MeasuredAt Arg1:T4 Arg2:T5	
+T6	SecondaryOutcome 169 235	proportion of patients with an oxygenation index (PaO2/FiO2) < 100
+T7	TimeFrame 236 244	by Day 7
+R3	MeasuredAt Arg1:T6 Arg2:T7	
+T8	OtherOutcome 649 674	length of hospitalization
+T9	OtherOutcome 680 774	radiological presence of fibrosis or Bronchiolitis Obliterans with Organizing Pneumonia (BOOP)
+T10	TimeFrame 775 786	after Day 7
+R4	MeasuredAt Arg1:T9 Arg2:T10	
+T11	OtherOutcome 795 861	need for insulin or an increase in the dosage in diabetic patients
+T12	OtherOutcome 863 896	a positive blood culture (Bactec)
+T13	OtherOutcome 906 959	presence of viral RNA in the naso-/oropharyngeal swab
+T14	TimeFrame 960 968	at Day 7
+R5	MeasuredAt Arg1:T13 Arg2:T14	

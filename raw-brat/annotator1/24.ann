@@ -1,0 +1,31 @@
+T1	PrimaryOutcome 50 78	time to clinical improvement
+T2	OutcomeDefinition 95 226	time from randomization (D0) to an improvement of 2 points on a 7-category ordinal scale or live discharge from the hospital (Dend)
+T3	PrimaryOutcome 232 270	improvement rate of follow-up CT scans
+T4	TimeFrame 271 277	at D14
+R1	MeasuredAt Arg1:T3 Arg2:T4	
+T5	OtherOutcome 550 575	clinical improvement rate
+T6	TimeFrame 622 646	on D7, D14, D21, and D28
+R2	MeasuredAt Arg1:T5 Arg2:T6	
+T7	OutcomeDefinition 576 621	as assessed with the 7-category ordinal scale
+R3	DefinedAs Arg1:T5 Arg2:T7	
+T8	OtherOutcome 648 733	time from randomization to lymphocyte recovery and to invasive mechanical ventilation
+T9	OtherOutcome 739 779	duration of hospitalization in survivors
+T10	OtherOutcome 789 828	time from treatment initiation to death
+T11	OtherOutcome 892 927	incidence of serious adverse events
+T12	TimeFrame 938 951	up to 28 days
+R4	MeasuredAt Arg1:T11 Arg2:T12	
+T13	OtherOutcome 978 992	adverse events
+T14	OtherOutcome 997 1019	serious adverse events
+T15	OtherOutcome 1088 1217	impact of ruxolitinib on SARS-CoV-2 virus clearance and its specific IgM and/or IgG-antibody formation and/or lymphocyte recovery
+T16	OutcomeDefinition 1381 1475	the first day at which lymphocytes returned to the normal levels within the observation period
+R5	DefinedAs Arg1:T8 Arg2:T16	
+T17	OutcomeDefinition 1521 1638	time from randomization to the first day of at least 2 consecutive negative RT-PCR assays separated by 24 hours apart
+T18	OtherOutcome 833 853	virus clearance time
+R6	DefinedAs Arg1:T18 Arg2:T17	
+T19	SecondaryOutcome 1671 1688	overall mortality
+T20	OtherOutcome 1739 1774	dynamic changes in the virus copies
+T21	OtherOutcome 1776 1792	cytokine profile
+T22	OtherOutcome 1794 1823	SARS-CoV-2–speicific antibody
+T23	OtherOutcome 1833 1877	correlation with clinical treatment response
+T24	TimeFrame 1689 1695	at D28
+R7	MeasuredAt Arg1:T19 Arg2:T24	

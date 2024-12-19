@@ -1,0 +1,10 @@
+T1	PrimaryOutcome 50 67	clinical recovery
+T2	TimeFrame 68 95	within 14 days of enrolment
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+T3	OutcomeDefinition 119 284	defined as normalization of fever (≤37.2°C), respiratory rate (≤24/min) and oxygen saturation (≥94%) without supplementary oxygen therapy sustained for at least 24 h
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 416 435	all-cause mortality
+T5	SecondaryOutcome 437 475	requirement for mechanical ventilation
+T6	SecondaryOutcome 477 502	duration of hospital stay
+T7	SecondaryOutcome 507 533	time to hospital discharge
+T8	OtherOutcome 569 606	frequencies of serious adverse events

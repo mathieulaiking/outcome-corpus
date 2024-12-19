@@ -1,0 +1,55 @@
+T1	PrimaryOutcome 53 73	ventilator-free days
+T2	TimeFrame 74 98	during the first 28 days
+T3	OutcomeDefinition 111 159	being alive and free from mechanical ventilation
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T4	SecondaryOutcome 185 204	all-cause mortality
+T5	TimeFrame 205 215	at 28 days
+T6	SecondaryOutcome 217 244	clinical status of patients
+T7	TimeFrame 245 254	at day 15
+T8	OutcomeDefinition 255 331	using a 6-point ordinal scale (ranging from 1, not hospitalized to 6, death)
+R3	MeasuredAt Arg1:T4 Arg2:T5	
+R4	MeasuredAt Arg1:T6 Arg2:T7	
+R5	DefinedAs Arg1:T6 Arg2:T8	
+T9	SecondaryOutcome 333 346	ICU-free days
+T10	TimeFrame 347 371	during the first 28 days
+T11	SecondaryOutcome 373 404	mechanical ventilation duration
+T12	TimeFrame 405 415	at 28 days
+R6	MeasuredAt Arg1:T11 Arg2:T12	
+R7	MeasuredAt Arg1:T9 Arg2:T10	
+T13	SecondaryOutcome 421 541	Sequential Organ Failure Assessment (SOFA) scores (range, 0-24, with higher scores indicating greater organ dysfunction)
+T14	TimeFrame 542 575	at 48 hours, 72 hours, and 7 days
+R8	MeasuredAt Arg1:T13 Arg2:T14	
+T15	PrimaryOutcome 613 633	ventilator-free days
+T16	TimeFrame 634 658	during the first 28 days
+R9	MeasuredAt Arg1:T15 Arg2:T16	
+T17	OutcomeDefinition 675 766	number of days alive and free from mechanical ventilation for at least 48 consecutive hours
+R10	DefinedAs Arg1:T15 Arg2:T17	
+T18	SecondaryOutcome 1090 1109	all-cause mortality
+T19	TimeFrame 1110 1124	during 28 days
+R11	MeasuredAt Arg1:T18 Arg2:T19	
+T20	SecondaryOutcome 1126 1153	clinical status of patients
+T21	TimeFrame 1154 1163	at day 15
+R12	MeasuredAt Arg1:T20 Arg2:T21	
+T22	OutcomeDefinition 1164 1193	using a 6-point ordinal scale
+R13	DefinedAs Arg1:T20 Arg2:T22	
+T23	SecondaryOutcome 1561 1574	ICU-free days
+T24	TimeFrame 1575 1599	during the first 28 days
+R14	MeasuredAt Arg1:T23 Arg2:T24	
+T25	SecondaryOutcome 1601 1632	mechanical ventilation duration
+T26	TimeFrame 1633 1643	at 28 days
+R15	MeasuredAt Arg1:T25 Arg2:T26	
+T27	SecondaryOutcome 1649 1698	Sequential Organ Failure Assessment (SOFA) scores
+T28	TimeFrame 1777 1810	at 48 hours, 72 hours, and 7 days
+T29	OutcomeDefinition 1706 1775	range from 0 to 24, with higher scores indicating greater dysfunction
+R16	DefinedAs Arg1:T27 Arg2:T29	
+R17	MeasuredAt Arg1:T27 Arg2:T28	
+T30	OtherOutcome 1852 1886	components of ventilator-free days
+T31	TimeFrame 1887 1911	during the first 28 days
+R18	MeasuredAt Arg1:T30 Arg2:T31	
+T32	OtherOutcome 1917 1968	cumulative proportions of the 6-point ordinal scale
+T33	TimeFrame 1969 1979	at 15 days
+R19	MeasuredAt Arg1:T32 Arg2:T33	
+T34	OtherOutcome 2000 2029	discharge from hospital alive
+T35	TimeFrame 2030 2044	within 28 days
+R20	MeasuredAt Arg1:T34 Arg2:T35	

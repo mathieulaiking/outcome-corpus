@@ -1,0 +1,12 @@
+T1	PrimaryOutcome 34 121	time to achieve a negative RT-PCR result for SARS-CoV-2 in a nasopharyngeal swab sample
+T2	SecondaryOutcome 157 187	time to resolution of symptoms
+T3	OutcomeDefinition 201 344	NEWS2 of 0 maintained for 24 h; daily NEWS2 and sequential organ failure assessment (SOFA) score; length of hospital stay; and 30-day mortality
+R1	DefinedAs Arg1:T2 Arg2:T3	
+T4	OtherOutcome 387 547	time to achieve negative SARS-CoV-2 RT-PCR in all clinical samples, including nasopharyngeal swab, posterior oropharyngeal saliva, throat swab, stool, and urine
+T5	OtherOutcome 549 573	daily viral load changes
+T6	TimeFrame 574 593	in the first 7 days
+R2	MeasuredAt Arg1:T5 Arg2:T6	
+T7	OtherOutcome 599 677	emergence of amino acid mutations in the nsp5 gene encoding a 3C-like protease
+T8	OtherOutcome 683 706	serum cytokine response
+T9	OtherOutcome 752 776	frequencies and duration
+T10	OtherOutcome 780 794	adverse events

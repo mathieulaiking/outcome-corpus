@@ -1,0 +1,15 @@
+T1	PrimaryOutcome 39 73	cure rate of the enrolled patients
+T2	OutcomeDefinition 112 433	standard given by the “Diagnosis and Treatment Protocol for Novel Coronavirus Pneumonia (5th or update version)” as 1) fever attenuated for continuously 7 days, 2) twice COVD-19 nucleolus acid detections negative, 3) CT scan shows chest effusion absorbed more than 50% percent when the patient is discharged from hospital
+R1	DefinedAs Arg1:T1 Arg2:T2	
+T3	SecondaryOutcome 463 487	recovery rate of hypoxia
+T4	TimeFrame 488 500	over 14 days
+T5	SecondaryOutcome 506 554	worsening rate of hypoxia during hospitalization
+T6	SecondaryOutcome 556 585	the duration of hospital stay
+T7	SecondaryOutcome 595 622	time to negative virus load
+T8	OutcomeDefinition 759 829	patient's fingertip oxygen saturation was ≥ 93% when inhaling room air
+R2	DefinedAs Arg1:T3 Arg2:T8	
+T9	OutcomeDefinition 867 976	patient's inhaling oxygen concentration must be upregulated so as to maintain normal oxygen saturation levels
+R3	DefinedAs Arg1:T5 Arg2:T9	
+T10	OtherOutcome 1003 1037	treatment -emergent adverse events
+T11	OtherOutcome 1039 1061	serious adverse events
+R4	MeasuredAt Arg1:T3 Arg2:T4	

@@ -1,0 +1,6 @@
+T1	PrimaryOutcome 76 226	in-hospital all-cause mortality, escalation to ICU admission, or progression of respiratory insufficiency that required non-invasive ventilation (NIV)
+T2	SecondaryOutcome 260 322	effects on the individual components of the composite endpoint
+T3	SecondaryOutcome 327 348	laboratory biomarkers
+T4	TimeFrame 349 411	at baseline and 6 days after inclusion (time window 4-8 days).
+R1	MeasuredAt Arg1:T3 Arg2:T4	
+R2	MeasuredAt Arg1:T2 Arg2:T4	

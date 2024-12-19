@@ -1,0 +1,12 @@
+Outcomes
+ 2.8.1. Primary outcome
+
+The primary endpoint was time to clinical improvement, defined as the days from randomization until normalization. Clinical improvement was assessed by five components including body temperature, respiratory rate, oxygen saturation, alleviation of cough, and absorption of pulmonary infection by chest CT. Normalization was defined as body temperature < 37.0 °C, respiratory rate < 24 times per minute indoors, and oxygen saturation > 94% (fingertip). Alleviation of cough was defined as a reduced severity of cough from a physician-reported scale of severe or moderate to mild condition or absence. Absorption of pulmonary infection was defined as an absorption area > 2/3 by Digital Imaging and Communications in Medicine (DICOM) images on chest CT. Alleviation of these five clinical symptoms were required to stay normal for at least 72 h on all components to fulfill the primary endpoint of clinical improvement.
+ 2.8.2. Secondary outcomes
+
+Prespecified secondary outcomes included clinical improvement rate, median time and proportion of defervescence, mean time and proportion of significant inflammatory absorption of lung lesions, a negative conversion rate of the viral nucleic acid test, mortality at day 28, and the conversion from mild or ordinary to severe or critical severe status. The diagnosis and classification of mild, ordinary, severe, and critical severe conditions of this disease were set according to Chinese guidelines for COVID-19 [4], [12].
+
+Defervescence time was defined as the days from randomization to a temperature less than 37.0 °C maintained for at least 24 or 72 h. A throat swab viral nucleic acid test was repeated after 48 h following a negative test result. The conversion rate in severe and critical severe subjects was assessed with a six-point scale. The patient being discharged from the hospital or the score decreasing by two points from the baseline was considered to be conversion.
+ 2.8.3. Exploratory outcomes
+
+The exploratory outcomes were changes in laboratory indicators, including routine blood test, C-reactive protein (CRP), coagulation function, myocardial enzymes, and hepatic and renal functions. The recovery rates of the above indicators from abnormal to normal were also calculated.

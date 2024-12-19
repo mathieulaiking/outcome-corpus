@@ -1,0 +1,15 @@
+T1	PrimaryOutcome 49 71	clinical recovery rate
+T2	TimeFrame 72 113	at 7 days from the beginning of treatment
+T3	OutcomeDefinition 148 443	continuous (>72 hours) recovery of body temperature, respiratory rate, oxygen saturation and cough relief after treatment, with following quantitative criteria: axillary temperature ≤36.6°C; respiratory frequency ≤24 times/min; Oxygen saturation ≥98% without oxygen inhalation; mild or no cough.
+R1	MeasuredAt Arg1:T1 Arg2:T2	
+R2	DefinedAs Arg1:T1 Arg2:T3	
+T5	OtherOutcome 961 1032	adverse events occurred during treatment and premature discontinuation.
+T7	SecondaryOutcome 661 679	rate of AOT or NMV
+T8	SecondaryOutcome 681 700	all-cause mortality
+T9	SecondaryOutcome 702 709	dyspnea
+T11	SecondaryOutcome 878 934	rate of patients needed to receive intensive care in ICU
+T10	SecondaryOutcome 711 738	rate of respiratory failure
+T13	OutcomeDefinition 751 867	SPO2 ≤90% without oxygen inhalation or PaO2/FiO2 <300mmHg, requires oxygen therapy or additional respiratory support
+R4	DefinedAs Arg1:T10 Arg2:T13	
+T4	SecondaryOutcome 476 555	latency to pyrexia relief (for patients with pyrexia at the time of enrollment)
+T6	SecondaryOutcome 561 655	latency to cough relief (for patients with moderate or severe cough at the time of enrollment)

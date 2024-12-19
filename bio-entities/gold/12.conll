@@ -1,0 +1,46 @@
+Primary	O
+outcomes	O
+and	O
+Secondary	O
+outcomes	O
+
+The	O
+primary	O
+outcome	O
+of	O
+this	O
+study	O
+was	O
+the	O
+SOFA	B-PrimaryOutcome
+Score	I-PrimaryOutcome
+,	O
+and	O
+the	O
+secondary	O
+outcome	O
+was	O
+the	O
+all	B-SecondaryOutcome
+-	I-SecondaryOutcome
+cause	I-SecondaryOutcome
+mortality	I-SecondaryOutcome
+up	B-TimeFrame
+to	I-TimeFrame
+30	I-TimeFrame
+days	I-TimeFrame
+.	O
+
+All	O
+outcomes	O
+were	O
+determined	O
+by	O
+an	O
+independent	O
+clinical	O
+endpoint	O
+determination	O
+committee	O
+.	O
+

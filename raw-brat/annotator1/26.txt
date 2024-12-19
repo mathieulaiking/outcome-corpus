@@ -1,0 +1,12 @@
+ Main Outcomes and Measures  Primary outcome was time to clinical improvement within 28 days, defined as patient discharged alive or reduction of 2 points on a 6-point disease severity scale (ranging from 1 [discharge] to 6 [death]). Secondary outcomes included 28-day mortality, time to discharge, and the rate of viral polymerase chain reaction (PCR) results turned from positive at baseline to negative at up to 72 hours.
+
+
+Outcome Measures
+
+The primary end point was time to clinical improvement within a 28-day period. Clinical improvement was defined as patient discharge or a reduction of 2 points on a 6-point disease severity scale.13 The scale was defined as follows: 6 points, death; 5 points, hospitalization plus extracorporeal membrane oxygenation (ECMO) or invasive mechanical ventilation; 4 points, hospitalization plus noninvasive ventilation or high-flow supplemental oxygen; 3 points, hospitalization plus supplemental oxygen (not high-flow or noninvasive ventilation); 2 points, hospitalization with no supplemental oxygen; 1 point, hospital discharge.
+
+Patient discharge criteria included body temperature returned to normal for longer than 3 days, respiratory symptoms significantly improved without the need for oxygen support, and 2 consecutive negative PCR test results from nasopharyngeal swabs at least 24 hours apart.
+
+Secondary clinical outcomes were as follows: (1) 28-day mortality, including analysis of time from randomization to death; (2) duration of hospitalization, including analyses of time from randomization to discharge, time from admission to discharge, and 28-day discharge rates; and (3) conversion of nasopharyngeal swab viral PCR results from positive at baseline to negative at follow-up assessed at 24, 48, and 72 hours. Once nasopharyngeal swab viral PCR testing yielded negative results 2 times consecutively, no further testing was performed.  A post hoc analysis was added to compare rates of improvement at days 7, 14, and 28.
+
+This clinical trial was an open-label, randomized clinical study. To avoid assessment bias, the evaluation of clinical outcomes was performed by an investigator who was blind to the study group allocation.

@@ -1,0 +1,9 @@
+T1	PrimaryOutcome 257 313	incidence of progression from severe to critical illness
+T2	PrimaryOutcome 322 394	time to a clinical improvement of two points on a seven-category ordinal
+T3	SecondaryOutcome 687 701	patient status
+T4	TimeFrame 702 718	at days 7 and 14
+R1	MeasuredAt Arg1:T3 Arg2:T4	
+T5	SecondaryOutcome 765 778	hospital stay
+T6	SecondaryOutcome 780 808	changes in oxygenation index
+T7	SecondaryOutcome 810 844	hematological inflammatory factors
+T8	SecondaryOutcome 850 857	imaging

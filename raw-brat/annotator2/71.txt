@@ -1,0 +1,12 @@
+Main Outcomes and Measures  The primary outcome, treatment failure on day 21, was defined as death or persistent dependency on mechanical ventilation or high-flow oxygen therapy. Prespecified secondary outcomes included the need for tracheal intubation (among patients not intubated at baseline); cumulative incidences (until day 21) of prone position sessions, extracorporeal membrane oxygenation, and inhaled nitric oxide; Pao2:Fio2 ratio measured daily from day 1 to day 7, then on days 14 and 21; and the proportion of patients with secondary infections during their ICU stay.
+
+
+Outcome Measures and Data Collection
+
+The primary outcome was treatment failure on day 21, defined as death or persistent dependency on mechanical ventilation or high-flow oxygen therapy.
+
+Prespecified secondary outcomes included the use of tracheal intubation (for patients not intubated at inclusion); the use of prone position (with the number of sessions), extracorporeal membrane oxygenation or inhaled nitric oxide (with the number of days the treatment was used); the Pao2:Fio2 ratio recorded daily from day 1 to day 7 and then on days 14 and 21; and the proportion of patients with and the number of episodes of nosocomial infections recorded during the ICU stay. Because some patients were still hospitalized in the ICU when the data were analyzed, nosocomial infections were recorded up to day 28 (which was a post hoc decision). The diagnosis of nosocomial infection was made by the clinician in charge and provided that an antibiotic therapy had been prescribed.
+
+Death on day 21 and status on day 21 (determined using a 5-item scale: death, presence in the ICU on mechanical ventilation, high-flow or low-flow oxygen therapy, ICU discharge) were post hoc outcomes.
+
+Apart from death, the adverse events expected in this context (such as the need for intubation in a patient breathing spontaneously at baseline) were only reported if the clinician thought they might be related to the study treatment.

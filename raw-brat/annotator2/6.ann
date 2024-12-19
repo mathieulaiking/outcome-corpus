@@ -1,0 +1,10 @@
+T1	PrimaryOutcome 11 71	5 days after enrollment or severe adverse reactions appeared
+T2	OtherOutcome 102 145	Changes in time to clinical recovery (TTCR)
+T3	OtherOutcome 150 186	clinical characteristics of patients
+T4	OutcomeDefinition 232 321	defined as the return of body temperature and cough relief, maintained for more than 72 h
+R1	DefinedAs Arg1:T2 Arg2:T4	
+T5	OtherOutcome 711 727	chest CT results
+T6	TimeFrame 731 804	one day before (Day 0) and one day after (Day 6) the study for evaluation
+R2	MeasuredAt Arg1:T5 Arg2:T6	
+T7	OutcomeDefinition 806 1006	Pulmonary recovery is defined as three levels: exacerbated, unchanged, and improved, moderately improved when less than 50 % of pneumonia were absorbed, and more than 50 % means significantly improved
+R3	DefinedAs Arg1:T5 Arg2:T7	

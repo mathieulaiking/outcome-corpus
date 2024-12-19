@@ -1,0 +1,21 @@
+T1	PrimaryOutcome 50 78	time to clinical improvement
+T2	OutcomeDefinition 86 831	the duration from randomization to the improvement of at least 1 point on a 7-category ordinal scale (adopted from a scale for hospitalized patients with severe influenza)19 or discharge from hospital, whichever occurred first. The 7-category ordinal scale was graded based on the following scheme: 1 for nonhospitalized with normal activities; 2 for nonhospitalized but unable to resume normal activities; 3 for hospitalized but not requiring supplemental oxygen; 4 for hospitalized and requiring supplemental oxygen; 5 for hospitalized and requiring nasal high-flow oxygen therapy, noninvasive mechanical ventilation, or both; 6 for hospitalized and requiring extracorporeal membrane oxygenation, invasive ventilation, or both; and 7 for death
+T3	SecondaryOutcome 862 884	lymphocyte cell counts
+T4	TimeFrame 885 907	on day 5 posttreatment
+T5	SecondaryOutcome 909 918	mortality
+T6	TimeFrame 919 928	at day 21
+T7	SecondaryOutcome 934 992	proportions of patients progressing to critical conditions
+T8	OutcomeDefinition 998 1058	acute respiratory distress syndrome, sepsis, or septic shock
+T9	SecondaryOutcome 1065 1076	viral loads
+T10	OutcomeDefinition 1078 1145	reflected by the Ct values as measured with real-time RT-PCR assays
+T11	TimeFrame 1147 1156	at day 21
+R1	MeasuredAt Arg1:T3 Arg2:T4	
+R2	MeasuredAt Arg1:T5 Arg2:T6	
+R3	DefinedAs Arg1:T7 Arg2:T8	
+R4	DefinedAs Arg1:T9 Arg2:T10	
+R5	MeasuredAt Arg1:T9 Arg2:T11	
+T12	OtherOutcome 1183 1197	adverse events
+T13	OtherOutcome 1199 1221	serious adverse events
+T14	OtherOutcome 1227 1265	premature discontinuation of treatment
+T15	OutcomeDefinition 1297 1382	National Cancer Institute Common Terminology Criteria for Adverse Events, version 4.0
+R6	DefinedAs Arg1:T12 Arg2:T15	

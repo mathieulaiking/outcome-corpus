@@ -1,0 +1,40 @@
+Outcomes	O
+
+The	O
+primary	O
+clinical	O
+endpoint	O
+was	O
+the	O
+necessity	B-PrimaryOutcome
+for	I-PrimaryOutcome
+intubation	I-PrimaryOutcome
+and	I-PrimaryOutcome
+invasive	I-PrimaryOutcome
+mechanical	I-PrimaryOutcome
+ventilation	I-PrimaryOutcome
+.	O
+
+Secondary	O
+outcomes	O
+were	O
+time	B-SecondaryOutcome
+of	I-SecondaryOutcome
+invasive	I-SecondaryOutcome
+mechanical	I-SecondaryOutcome
+ventilation	I-SecondaryOutcome
+,	O
+admission	B-SecondaryOutcome
+to	I-SecondaryOutcome
+the	I-SecondaryOutcome
+ICU	I-SecondaryOutcome
+,	O
+length	B-SecondaryOutcome
+of	I-SecondaryOutcome
+ICU	I-SecondaryOutcome
+stay	I-SecondaryOutcome
+,	O
+and	O
+mortality	B-SecondaryOutcome
+.	O
+

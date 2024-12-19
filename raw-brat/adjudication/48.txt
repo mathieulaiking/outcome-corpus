@@ -1,0 +1,2 @@
+Outcome measures
+Outcomes were assessed at 28 days after randomization, with further analyses specified at 6 months. The primary outcome was all-cause mortality. Secondary outcomes were time to discharge from hospital and, among patients not on invasive mechanical ventilation at randomization, invasive mechanical ventilation (including extra-corporal membrane oxygenation) or death. Subsidiary clinical outcomes included cause-specific mortality, use of hemodialysis or hemofiltration, major cardiac arrhythmia (recorded in a subset), and receipt and duration of ventilation
